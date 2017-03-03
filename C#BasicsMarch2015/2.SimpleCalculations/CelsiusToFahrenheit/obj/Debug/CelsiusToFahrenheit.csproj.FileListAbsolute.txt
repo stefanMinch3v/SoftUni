@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CelsiusToFahrenheit\bin\Debug\CelsiusToFahrenheit.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CelsiusToFahrenheit\bin\Debug\CelsiusToFahrenheit.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CelsiusToFahrenheit\bin\Debug\CelsiusToFahrenheit.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CelsiusToFahrenheit\obj\Debug\CelsiusToFahrenheit.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CelsiusToFahrenheit\obj\Debug\CelsiusToFahrenheit.pdb

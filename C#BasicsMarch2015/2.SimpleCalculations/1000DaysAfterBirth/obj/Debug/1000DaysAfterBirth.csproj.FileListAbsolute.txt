@@ -1,0 +1,6 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\1000DaysAfterBirth\bin\Debug\1000DaysAfterBirth.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\1000DaysAfterBirth\obj\Debug\1000DaysAfterBirth.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\1000DaysAfterBirth\bin\Debug\1000DaysAfterBirth.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\1000DaysAfterBirth\bin\Debug\1000DaysAfterBirth.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\1000DaysAfterBirth\obj\Debug\1000DaysAfterBirth.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\1000DaysAfterBirth\obj\Debug\1000DaysAfterBirth.pdb
