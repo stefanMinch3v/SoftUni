@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\Expression\Expression\bin\Debug\Expression.exe
+D:\Programming\C# Basics March\My codes\Expression\Expression\bin\Debug\Expression.pdb
+D:\Programming\C# Basics March\My codes\Expression\Expression\obj\Debug\Expression.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\Expression\Expression\obj\Debug\Expression.exe
+D:\Programming\C# Basics March\My codes\Expression\Expression\obj\Debug\Expression.pdb

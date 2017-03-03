@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\GraphicApplications\deleteme\bin\Debug\deleteme.exe.config
+D:\Programming\C# Basics March\My codes\GraphicApplications\deleteme\bin\Debug\deleteme.exe
+D:\Programming\C# Basics March\My codes\GraphicApplications\deleteme\bin\Debug\deleteme.pdb
+D:\Programming\C# Basics March\My codes\GraphicApplications\deleteme\obj\Debug\deleteme.exe
+D:\Programming\C# Basics March\My codes\GraphicApplications\deleteme\obj\Debug\deleteme.pdb

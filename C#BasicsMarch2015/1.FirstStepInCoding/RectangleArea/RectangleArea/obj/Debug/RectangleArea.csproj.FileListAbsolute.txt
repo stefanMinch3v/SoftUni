@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\RectangleArea\RectangleArea\bin\Debug\RectangleArea.exe
+D:\Programming\C# Basics March\My codes\RectangleArea\RectangleArea\bin\Debug\RectangleArea.pdb
+D:\Programming\C# Basics March\My codes\RectangleArea\RectangleArea\obj\Debug\RectangleArea.exe
+D:\Programming\C# Basics March\My codes\RectangleArea\RectangleArea\obj\Debug\RectangleArea.pdb
+D:\Programming\C# Basics March\My codes\RectangleArea\RectangleArea\obj\Debug\RectangleArea.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\SquareOfStars\SquareOfStars\obj\Debug\SquareOfStars.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\SquareOfStars\SquareOfStars\bin\Debug\SquareOfStars.exe
+D:\Programming\C# Basics March\My codes\SquareOfStars\SquareOfStars\bin\Debug\SquareOfStars.pdb
+D:\Programming\C# Basics March\My codes\SquareOfStars\SquareOfStars\obj\Debug\SquareOfStars.exe
+D:\Programming\C# Basics March\My codes\SquareOfStars\SquareOfStars\obj\Debug\SquareOfStars.pdb

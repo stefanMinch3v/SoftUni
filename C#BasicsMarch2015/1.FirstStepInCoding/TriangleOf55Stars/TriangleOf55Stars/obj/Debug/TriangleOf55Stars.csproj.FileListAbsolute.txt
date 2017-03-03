@@ -1,0 +1,4 @@
+D:\Programming\C# Basics March\My codes\TriangleOf55Stars\TriangleOf55Stars\bin\Debug\TriangleOf55Stars.exe
+D:\Programming\C# Basics March\My codes\TriangleOf55Stars\TriangleOf55Stars\bin\Debug\TriangleOf55Stars.pdb
+D:\Programming\C# Basics March\My codes\TriangleOf55Stars\TriangleOf55Stars\obj\Debug\TriangleOf55Stars.exe
+D:\Programming\C# Basics March\My codes\TriangleOf55Stars\TriangleOf55Stars\obj\Debug\TriangleOf55Stars.pdb
