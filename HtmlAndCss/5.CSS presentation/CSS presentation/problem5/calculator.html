@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+
+	<main>
+		<header>
+			<div class="title">
+				<img src="calculator.png" align="center" />Calculator
+			</div>
+			<div class="buttons">
+				<a class="minimize">-</a>
+				<a class="maximize">[]</a>
+				<a class="close" onclick="window.open('', '_self', ''); window.close();">X</a>
+			</div>
+			<div class="clear"></div>
+		</header>
+
+		<section>
+			<nav>
+				<a onclick="javascript:alert('You click View :)');">View</a>
+				<a onclick="javascript:alert('You click Edit :)');">Edit</a>
+				<a onclick="javascript:alert('You click Help :)');">Help</a>
+			</nav>
+
+			<input type="text" disabled class="calculate" id="blink" value="0" />
+
+			<article>
+				
+				<table class="numbers">
+					<tr align="center">
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+					</tr>
+					<tr align="center">
+						<td>63</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>47</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>32</td>
+					</tr>
+					<tr align="center">
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+					</tr>
+					<tr align="center">
+						<td>31</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>15</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>0</td>
+					</tr>
+				</table>
+
+				<aside>
+					<div class="side1">
+						<input type="radio" /> Hex<br />
+						<input type="radio" checked /> Dec<br />
+						<input type="radio" /> Oct<br />
+						<input type="radio" /> Bin<br />
+					</div>
+					<div class="side2">
+						<input type="radio" checked /> Qword<br />
+						<input type="radio" /> Dword<br />
+						<input type="radio" /> Word<br />
+						<input type="radio" /> Byte<br />
+					</div>
+				</aside>
+				<table class="buttons_calculate">
+					<tr>
+						<td><input type="submit" class="clalculateButtons" value="" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="Mod" /></td>
+						<td><input type="submit" class="clalculateButtons" value="A" /></td>
+						<td><input type="submit" class="clalculateButtons" value="MC" /></td>
+						<td><input type="submit" class="clalculateButtons" value="MR" /></td>
+						<td><input type="submit" class="clalculateButtons" value="MS" /></td>
+						<td><input type="submit" class="clalculateButtons" value="M+" /></td>
+						<td><input type="submit" class="clalculateButtons" value="M-" /></td>
+					</tr>
+					<tr>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="(" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value=")" /></td>
+						<td><input type="submit" class="clalculateButtons" value="B" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="<-" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="CE" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="C" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="+-" /></td>
+						<td><input type="submit" class="clalculateButtons" value="√" /></td>
+					</tr>
+					<tr>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="RoL" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="RoR" /></td>
+						<td><input type="submit" class="clalculateButtons" value="C" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="7" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="8" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="9" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="/" /></td>
+						<td><input type="submit" class="clalculateButtons" value="%" /></td>
+					</tr>
+					<tr>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="Or" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="Xor" /></td>
+						<td><input type="submit" class="clalculateButtons" value="D" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="4" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="5" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="6" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="*" /></td>
+						<td><input type="submit" class="clalculateButtons" value="1/x" /></td>
+					</tr>
+					<tr>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="Lsh" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="Rsh" /></td>
+						<td><input type="submit" class="clalculateButtons" value="E" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="1" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="2" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="3" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="-" /></td>
+						<td rowspan="2"><input type="submit" class="clalculateButtons" id="colored" value="=" /></td>
+					</tr>
+					<tr>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="Not" /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="And" /></td>
+						<td><input type="submit" class="clalculateButtons" value="F" /></td>
+						<td colspan="2"><input type="submit" class="clalculateButtons" id="colored" value="0" /></td>
+						<td><input type="submit" class="clalculateButtons" value="." /></td>
+						<td><input type="submit" class="clalculateButtons" id="colored" value="+" /></td>
+					</tr>
+				</table>
+
+			</article>
+		</section>
+	</main>
+
+</body>
+</html>

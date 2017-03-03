@@ -1,0 +1,95 @@
+body {
+	background-color: darkgreen;
+	font: 12px Arial;
+}
+table {
+	margin: 0 auto;
+	width: 750px;
+	border-collapse: collapse;
+}
+table td {
+	padding: 8px;
+	border: 1px solid black;
+}
+.head {
+	background-color: orange;
+	font: bold 16px Arial;
+}
+
+.betRed {
+	border-radius: 70px;
+	background: red;
+	padding: 5px;
+	color: white;
+}
+.betGreen {
+	border-radius: 70px;
+	background: darkgreen;
+	padding: 5px;
+	color: white;
+}
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+
+.blue {
+	background: #c2ddff;
+}
+.white {
+	background: #eef6ff;
+}
+.topLeft {
+	border-top-left-radius: 15Spx;
+}
+.topRight {
+	border-top-right-radius: 15px;
+}
+.bottomLeft {
+	border-bottom-left-radius: 15px;
+}
+.bottomRight {
+	border-bottom-right-radius: 15px;
+}
+#brazil {
+	width: 20px;
+	height: 15px;
+}
+#spain {
+	width: 20px;
+	height: 15px;
+}
+#mexico {
+	width: 20px;
+	height: 15px;
+}
+#netherland {
+	width: 20px;
+	height: 15px;
+}
+#italy {
+	width: 20px;
+	height: 15px;
+}
+#england {
+	width: 20px;
+	height: 15px;
+}
+#argentina {
+	width: 20px;
+	height: 15px;
+}
+#bosna {
+	width: 20px;
+	height: 15px;
+}
+#germany {
+	width: 20px;
+	height: 15px;
+}
+#portugal {
+	width: 20px;
+	height: 15px;
+}

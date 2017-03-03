@@ -1,0 +1,197 @@
+/* СТИЛ ЗА БУТОНИТЕ! */
+
+.buttons .close {
+	background: rgb(255,89,92); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,89,92,1) 0%, rgba(191,34,22,1) 50%, rgba(170,21,1,1) 51%, rgba(173,52,52,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,89,92,1) 0%,rgba(191,34,22,1) 50%,rgba(170,21,1,1) 51%,rgba(173,52,52,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,89,92,1) 0%,rgba(191,34,22,1) 50%,rgba(170,21,1,1) 51%,rgba(173,52,52,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff595c', endColorstr='#ad3434',GradientType=0 ); /* IE6-9 */
+	
+	border: 1px solid red;
+	font: bold 12px Arial;
+	color: white;
+	padding-right: 8px;
+	padding-left: 8px;
+	border-radius: 3px;
+}
+.buttons .close:hover {
+	background: rgb(255,30,34); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,30,34,1) 0%, rgba(191,34,22,1) 50%, rgba(170,21,1,1) 51%, rgba(170,87,87,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,30,34,1) 0%,rgba(191,34,22,1) 50%,rgba(170,21,1,1) 51%,rgba(170,87,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,30,34,1) 0%,rgba(191,34,22,1) 50%,rgba(170,21,1,1) 51%,rgba(170,87,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1e22', endColorstr='#aa5757',GradientType=0 ); /* IE6-9 */
+
+	border: 1px solid darkred;
+	cursor: pointer;
+}
+
+.buttons .minimize {
+	background: rgb(184,225,252); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(184,225,252,1) 0%, rgba(169,210,243,1) 10%, rgba(144,186,228,1) 25%, rgba(144,188,234,1) 37%, rgba(144,191,240,1) 50%, rgba(107,168,229,1) 51%, rgba(162,218,245,1) 83%, rgba(189,243,253,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=0 ); /* IE6-9 */
+
+	border: 1px solid #60a0ff;
+	font: bold 12px Arial;
+	color: white;
+	padding-right: 8px;
+	padding-left: 8px;
+	border-radius: 3px;
+}
+
+.buttons .minimize:hover {
+	background: rgb(156,238,252); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(156,238,252,1) 0%, rgba(162,218,245,1) 17%, rgba(158,192,226,1) 49%, rgba(88,164,239,1) 50%, rgba(144,188,234,1) 63%, rgba(144,186,228,1) 75%, rgba(169,210,243,1) 90%, rgba(184,225,252,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(156,238,252,1) 0%,rgba(162,218,245,1) 17%,rgba(158,192,226,1) 49%,rgba(88,164,239,1) 50%,rgba(144,188,234,1) 63%,rgba(144,186,228,1) 75%,rgba(169,210,243,1) 90%,rgba(184,225,252,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(156,238,252,1) 0%,rgba(162,218,245,1) 17%,rgba(158,192,226,1) 49%,rgba(88,164,239,1) 50%,rgba(144,188,234,1) 63%,rgba(144,186,228,1) 75%,rgba(169,210,243,1) 90%,rgba(184,225,252,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ceefc', endColorstr='#b8e1fc',GradientType=0 ); /* IE6-9 */
+
+	border: 1px solid #478ffb;
+	cursor: pointer;
+}
+
+.buttons .maximize {
+	background: rgb(184,225,252); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(184,225,252,1) 0%, rgba(169,210,243,1) 10%, rgba(144,186,228,1) 25%, rgba(144,188,234,1) 37%, rgba(144,191,240,1) 50%, rgba(158,192,226,1) 51%, rgba(162,218,245,1) 83%, rgba(189,243,253,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(158,192,226,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(158,192,226,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=0 ); /* IE6-9 */
+
+	border: 1px solid #60a0ff;
+	font: bold 12px Arial;
+	color: white;
+	padding-right: 8px;
+	padding-left: 8px;
+	border-radius: 3px;
+}
+
+.buttons .maximize:hover {
+	cursor: not-allowed;
+}
+
+/* СТИЛ НА КАЛКУЛАТОРА */
+body {
+	background: #ccc;
+}
+main {
+	width: 40%;
+	height: auto;
+	margin: 0 auto;
+	border: 1px solid #60a0ff;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+
+	background: rgb(6,109,171); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(6,109,171,1) 0%, rgba(138,187,215,1) 59%, rgba(138,187,215,1) 77%, rgba(197,222,234,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(6,109,171,1) 0%,rgba(138,187,215,1) 59%,rgba(138,187,215,1) 77%,rgba(197,222,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(6,109,171,1) 0%,rgba(138,187,215,1) 59%,rgba(138,187,215,1) 77%,rgba(197,222,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#066dab', endColorstr='#c5deea',GradientType=0 ); /* IE6-9 */
+}
+main header .title {
+	float: left;
+	font: bold 12px Arial;
+	margin-left: 10px;
+	margin-top: 6px;
+	margin-bottom: 4px;
+}
+main header .title img {
+	width: 16px;
+	height: 16px;
+}
+main header .buttons {
+	float: right;
+	margin-right: 8px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+main header .clear {
+	clear:both;
+}
+
+section {
+	width: 95%;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 2px;
+	margin-bottom: 7px;
+	border: 1px solid white;
+
+	background: rgb(254,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(254,255,255,1) 0%, rgba(221,241,249,1) 35%, rgba(238,245,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(254,255,255,1) 0%,rgba(221,241,249,1) 35%,rgba(238,245,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(221,241,249,1) 35%,rgba(238,245,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#eef5ff',GradientType=0 ); /* IE6-9 */
+}
+
+section nav {
+	border-bottom: 1px solid #ccc;
+	margin: 5px;
+	font: 12px Arial;
+}
+section nav a {
+	margin-left: 7px;
+	cursor: pointer;
+}
+
+section .calculate {
+	width: 95%;
+	height: 7%;
+	text-align: right;
+	font: bold 16px Arial;
+	margin-left: 2.4%;
+	margin-right: 2.6%;
+	margin-top: 1%;
+}
+
+section article {
+	margin: 0 auto;
+	margin-left: 2.4%;
+	margin-right: 2.6%;
+	margin-top: 1%;
+	width: 95%;
+	height: 80%;
+}
+section aside .side1 {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	height: 40%;
+}
+section aside .side2 {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin-top: 3%;
+	height: 40%;
+}
+section article .numbers {
+	width: 100%;
+	height: 20%;
+	font: 12px Arial;
+	color: darkblue;
+	border: 1px solid #ccc;
+}
+section article aside {
+	float: left;
+	width: 20%;
+	height: 78%;
+	margin-top: 1%;
+}
+section article .buttons_calculate {
+	float: right;
+	width: 75%;
+	height: 78%;
+	margin-top: 1%;
+} 
+section article .buttons_calculate .clalculateButtons {
+	width: 100%;
+	height: 100%;
+}
+section article .buttons_calculate #colored {
+	background: #ccc;
+}

@@ -1,0 +1,77 @@
+/***MAIN***/
+body {
+	width: 900px;
+	background-color: white;
+}
+.wrapper {
+	border: 1px solid darkblue;
+	background: darkblue;
+	height: 590px;
+}
+p {
+	text-align: center;
+	color: white;
+	margin-top: 0;
+}
+span {
+	font-size: 5.5em;
+}
+
+/***FORMS***/
+.form1 {
+	float: left;
+	clear: both;
+	margin-right: 20px;
+}
+.fieldset1 {
+	width: 310px;
+	border-radius: 10px;
+	height: 240px;
+}
+.fieldset2 {
+	border-radius: 10px;
+	height: 240px;
+}
+.legend1 {
+	margin-left: 40px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.legend2 {
+	margin-left: 120px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+} 
+input {
+	margin: 3px;
+	border-radius: 4px;
+}	
+label {
+	color: white;
+}
+#dropdown {
+	border-radius:4px;
+	width: 135px;
+}
+#colorp {
+	width: 110px;
+}
+.reg {
+	width: 530px;
+	height: 40px;
+	border-radius: 8px;
+	color: blue;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.clearform {
+	width: 310px;
+	margin-left: 13px;
+	margin-top: 20px;
+	border-radius: 8px;
+	height: 40px;
+	color: blue;
+}

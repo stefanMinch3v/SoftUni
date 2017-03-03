@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css"/>
+		<title>Form</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav>
+				<ul>
+					<li>
+						<a href="#"><div class="image-one"></div>Paragliding</a>
+					</li>
+					<li>
+						<a href="#"><div class="image-two"></div>Skydiving</a>
+					</li>
+					<li>
+						<a href="#"><div class="image-three"></div>Climbing</a>
+					</li>
+					<li>
+						<a href="#"><div class="image-four"></div>About Us</a>
+					</li>
+				</ul>
+			</nav>
+			<section>
+				<article>
+					<form action="">
+						<fieldset class="fieldset-one">
+							<legend class="legend-one">Personal Info</legend>
+							<input type="text" name="name" placeholder="Enter your full name" class="inputer" id="name" />
+							<input type="mail" name="email" placeholder="Enter a valid e-mail" class="inputer" id="email" />	
+							<input type="text" name="phone" placeholder="Enter a phone number" class="inputer" id="phone" />
+						</fieldset>
+					</form>
+				</article>
+				<article>
+					<form action="">
+						<fieldset class="fieldset-two">	
+							<legend class="legend-two">Flight Info</legend>
+							<label for="">Are flying for first time?</label><br />
+							<input type="radio" name="radio" />Yes<input type="radio" name="radio" />No<br />
+							<label for="">Choose Destination</label>
+							 <select class="selector">
+								  <option value="Dobrostan">Dobrostan</option><p>Bulgaria</p>
+								  <option value="Sopot">Sopot</option>
+								  <option value="Sofia">Sofia</option>
+								  <option value="Burgas">Burgas</option>
+							</select> 
+							<label for="">Choose Date</label><br />
+							<input type="date" name="date" class="inputerDate" />
+						</fieldset>
+					</form>
+				</article>
+			</section>
+			<footer>
+					<button class="button-one">Clear</button>
+					<button class="button-two">Send</button>
+			</footer>
+		</div>
+	</body>
+</html>

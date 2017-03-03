@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 4 - Fakebook Register Form</title>
+	<link href='css1.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="Problem4.css">
+	<link rel="icon" type="image/png" href="images/fake.png">
+</head>
+<body>
+	<div class="wrap">
+		<form method="get" action="action.php">
+			<header>
+				<div class="wrap-logo"></div>
+				<h1>Registration</h1>
+				<h2>It is safe and it will always be!</h2>
+			</header>
+			<div class="fieldset-group clearfix">
+				<fieldset class="none-important">
+					<legend><h3>None-Important Information</h3></legend>
+					<div class="form-row clearfix">
+						<div class="input-group col-3x col-first">
+							<label for="first-name" class="hide-label">First Name</label>
+							<input type="text" name="first-name" id="first-name" placeholder="First Name" required="true">
+						</div>
+						<div class="input-group col-3x">
+							<label for="last-name" class="hide-label">Last Name</label>
+							<input type="text" name="last-name" id="last-name" placeholder="Last Name" required="true">
+						</div>
+					</div>
+					<div class="form-row clearfix">
+						<div class="input-group col-3x col-first">
+							<label for="email" class="hide-label">Your Email</label>
+							<input type="email" name="email" id="email" placeholder="Your Email" required="true">
+						</div>
+						<div class="input-group col-3x">
+							<label for="phone-number" class="hide-label">Phone Number</label>
+							<input type="tel" name="phone-number" id="phone-number" placeholder="Phone Number" required="true">
+						</div>
+					</div>
+					<div class="form-row clearfix">
+						<div class="input-group col-3x col-first">
+							<label for="password" class="hide-label">Your Password</label>
+							<input type="password" name="password" id="password" placeholder="Your Password" required="true">
+						</div>
+						<div class="input-group col-3x">
+							<label for="website" class="hide-label">Website</label>
+							<input type="url" name="website" id="website" placeholder="Website" required="true">
+						</div>
+					</div>
+					<div class="form-row clearfix">
+						<div class="input-group col-4x col-first">
+							<label for="birthday"><h4>Birthday</h4></label>
+							<input type="datetime-local" name="birthday" id="birthday" placeholder="mm/dd/yyyy" required="true">
+						</div>
+					</div>
+					<div class="form-row form-row-last clearfix">
+						<div class="input-group col-6x clear-left">
+							<fieldset class="gender">
+								<legend class="hide-label"><h3>Choose gender</h3></legend>
+								<div class="col-2x col-first">
+									<input type="radio" name="gender" id="female" class="input-radio" required="true">
+									<label for="female">Female</label>
+								</div>
+								<div class="col-2x">
+									<input type="radio" name="gender" id="male" class="input-radio" required="true">
+									<label for="male">Male</label>									
+								</div>
+								<div class="col-2x">
+									<input type="radio" name="gender" id="other" class="input-radio" required="true">
+									<label for="other">Other</label>
+								</div>
+							</fieldset>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset class="important">
+					<legend><h3>Important Information</h3></legend>
+					<div class="form-row clearfix">
+						<div class="input-group col-2x col-first">
+							<label for="country" class="hide-label">First Name</label>
+							<select name="country" id="country" placeholder="Country" required="true">
+								<option value="" disabled selected>Country</option>
+								<option value="Country 1">Country 1</option>
+								<option value="Country 2">Country 2</option>
+								<option value="Country 3">Country 3</option>
+								<option value="Country 4">Country 4</option>
+								<option value="Country 5">Country 5</option>
+								<option value="Country 6">Country 6</option>
+								<option value="Country 7">Country 7</option>
+							</select>
+						</div>
+						<div class="input-group col-2x">
+							<label for="village" class="hide-label">Village</label>
+							<input type="text" name="village" id="village" placeholder="Village" required="true">
+						</div>
+						<div class="input-group col-2x">
+							<label for="district" class="hide-label">District</label>
+							<input type="text" name="district" id="district" placeholder="District" required="true">
+						</div>
+					</div>
+					<div class="form-row clearfix">
+						<div class="input-group col-2x col-first">
+							<label for="street-name" class="hide-label">Street</label>
+							<input type="text" name="street-name" id="street-name" placeholder="Street" required="true">
+						</div>
+						<div class="input-group col-1x">
+							<label for="street-number" class="hide-label">Street Number</label>
+							<input type="text" name="street-number" id="street-number" placeholder="Nr" required="true">
+						</div>
+						<div class="input-group col-1x">
+							<label for="floor" class="hide-label">Floor</label>
+							<input type="text" name="floor" id="floor" placeholder="Floor" required="true">
+						</div>
+						<div class="input-group col-2x">
+							<label for="appartment-number" class="hide-label">Appartment number</label>
+							<input type="text" name="appartment-number" id="appartment-number" placeholder="App Nr" required="true">
+						</div>
+					</div>
+					<div class="form-row clearfix">
+						<div class="input-group col-2x col-first">
+							<label for="door-color">Door Color</label>
+							<input type="color" name="door-color" id="door-color" placeholder="Door Color" required="true">
+						</div>
+						<div class="input-group label-align col-2x">
+							<label for="water-meter-number" class="hide-label">Water Meter Number</label>
+							<input type="text" name="water-meter-number" id="water-meter-number" placeholder="Water Meter Nr" required="true">
+						</div>
+						<div class="input-group label-align col-2x">
+							<label for="aunt-panties-size" class="hide-label">Aunt Panties` Size</label>
+							<select name="aunt-panties-size" id="aunt-panties-size" placeholder="Aunt Panties` Size" required="true">
+								<option value="" disabled selected>Aunt Panties` Size</option>
+								<option value="Size 1">Size 1</option>
+								<option value="Size 2">Size 2</option>
+								<option value="Size 3">Size 3</option>
+								<option value="Size 4">Size 4</option>
+								<option value="Size 5">Size 5</option>
+								<option value="Size 6">Size 6</option>
+								<option value="Size 7">Size 7</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-row form-row-last clearfix">
+						<div class="input-group col-6x col-first">
+							<label for="more-personal-information"><h4>More Personal Information</h4></label>
+							<textarea name="more-personal-information" id="more-personal-information" rows="4" placeholder="Give us more personal information..." required="true"></textarea>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			<footer class="wrap-buttons clearfix">
+				<button type="reset" name="Clear" class="btn-clear" value="Clear">Clear</button>
+				<button type="submit" name="Register" class="btn-register" value="Register" formtarget="_blank">Register</button>
+			</footer>
+		</form>
+</body>
+</html>

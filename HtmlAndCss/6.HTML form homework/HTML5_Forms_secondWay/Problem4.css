@@ -1,0 +1,367 @@
+/* --- Make box-sizing of whole document to border-box --- */
+
+html {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* --- clearfix for floated layouts --- */
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+ 
+.clearfix:after {
+	clear: both;
+}
+ 
+.clearfix {
+	*zoom: 1;
+}
+
+
+/* --- Layout checking helper 
+
+* {outline: 1px solid lightgray;}
+div {outline-color: red;}
+form {outline-color: blue;}
+p {outline-color: yellow;}
+input {outline-color: orange;}
+select {outline-color: brown;}
+label {outline-color: #8000FF;}
+
+--- */
+
+
+/* --- Global styling  --- */
+
+body {
+	width: 100%;
+	height: auto;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	background-color: #3b5998;
+	color: #FFF;
+}
+
+legend {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+input:not(.input-radio), select {
+	font-size: inherit;
+	margin: 0px;
+	width: 100%;
+	height: 36px;
+	padding-left: 8px;
+}
+
+input[type="color"] {
+	padding: 0;
+}
+
+textarea {
+	height: auto;
+	resize: vertical;
+	overflow-y: hidden;
+	font-size: inherit;
+	margin: 0px;
+	width: 100%;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+
+input[type="radio"] {
+	position: relative;
+	float: left;
+	width: auto;
+	margin: 0px;
+}
+
+input[type="color"] {
+	padding: 2px;
+}
+
+
+label {
+	display: block;
+	margin-bottom: 6px;
+}
+
+.label-align {
+	top:20px;
+}
+
+.gender label {
+	position: relative;
+	float: left;
+	margin: 0 0 0 8px;
+}
+
+fieldset .gender {
+	margin-top: 12px;
+}
+
+.hide-label {
+	position: absolute;
+	clip: rect(1px,1px,1px,1px);
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 14px;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 16px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+.wrap {
+	max-width: 1000px;
+	width: 95%;
+	height: auto;
+	padding: 4%;
+	background-color: #355088;
+	box-shadow: 
+		0 0 160px 0 rgba(255,255,255, 0.05),
+		0 1px 0 0 rgba(255,255,255, 0.2),
+		0 0 1px 0 rgba(255,255,255, 0.2),
+		inset 1px 4px 20px 1px rgba(0,0,0, 0.3),
+		inset 5px 5px 40px 1px rgba(0,0,0, 0.1),
+		inset 5px 5px 80px 1px rgba(0,0,0, 0.1);
+	border: 1px solid #36528B;
+	margin: 50px auto 0 auto;
+	border-radius: 8px;
+
+}
+
+header {
+	position: relative;
+	width: 100%;
+	margin-bottom: 56px;
+}
+
+.wrap-logo {
+	width: 100%;
+	height: 70px;
+	margin-bottom: 56px;
+	background-image: url("fake.png");
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.fieldset-group {
+	position: relative;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.none-important {
+	position: relative;
+	float: left;
+	width: 40%;
+	padding-right: 2.5%;
+}
+
+.important {
+	position: relative;
+	float: left;
+	width: 60%;
+	padding-left: 2.5%;
+}
+
+.form-row:not(.form-row-last) {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 16px;
+}
+
+.input-group {
+	position: relative;
+	float: left;
+}
+
+.col-1x {
+	width: 15%;
+	margin-left: 2%;
+}
+
+.col-2x {
+	width: 32%;
+	margin-left: 2%;
+	float: left;
+}
+
+.col-3x {
+	width: 49%;
+	margin-left: 2%;
+}
+
+.col-4x {
+	width: 66%;
+	margin-left: 2%;
+}
+
+.col-6x {
+	width: 100%;
+}
+
+.col-first {
+	margin-left: 0;
+}
+
+.clear-left {
+	clear: left;
+}
+
+.wrap-buttons {
+	height: 60px;
+}
+
+.btn-register {
+	height: 100%;
+	position: relative;
+	float:right;
+	width: 57%;
+	background-color: transparent;
+	border: none;
+	color: #FFF;
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 2px solid white;
+}
+
+.btn-register:active {
+	background-color: rgba(255,255,255, 0.3);
+}
+
+.btn-clear {
+	position: relative;
+	float:left;
+	height: 100%;
+	width: 37%;
+	background-color: transparent;
+	border: none;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.btn-clear:active {
+	background-color: rgba(255,255,255, 0.3);
+}
+
+input, select, textarea {
+	background-color: #FFF;
+	border-radius: 2px;
+	border: none;
+}
+
+select {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+	background-color: #EFEFEF;
+}
+
+*:focus {
+	outline-color: orange;
+}
+
+@media screen and (max-width: 760px) {
+
+.none-important {
+	position: relative;
+	width: 100%;
+	padding: 0 0 42px 0;
+	margin: 0 auto;
+}
+
+.important {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+h3 {
+	text-align: left
+}
+
+.wrap {
+	padding: 10px;
+	margin: 10px;
+}
+
+.wrap-logo {
+	width: 100%;
+	height: 60px;
+	margin-bottom: 56px;
+	margin-top: 24px;
+	background-image: url("fake.png");
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+}
+
+@media screen and (max-width: 330px) {
+
+.col-1x, .col-2x, .col-3x, .col-4x, .col-6x, .col-first {
+	width: 100%;
+	top: 0;
+	margin: 0 0 20px 0;
+}
+
+.form-row {
+	margin-bottom: 0 !important;
+}
+
+.fieldset-group {
+    margin-bottom: 10px;
+}
+
+.wrap-logo {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+header {
+	margin-bottom: 32px;
+}
+
+.none-important {
+	padding: 0;
+}
+
+}

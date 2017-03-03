@@ -1,0 +1,259 @@
+/***MAIN STYLES***/
+body {
+	background-color: green;
+}
+.wrapper {
+	margin: 10px auto;
+	width: 960px;
+	height: 600px;
+	background-color: green;
+}
+/***HEADER STYLES***/
+header {
+	height: 100px;
+	background-color: red;
+}
+header div a img {
+	width: 90px;
+	height: 90px;
+	cursor: pointer;
+}
+header div ul li {
+	display: inline-block;
+	font-family: arial;
+	color: white;
+	font-weight: bold;
+	margin-left: 60px;
+	margin-top: 50px;
+	margin-right: 10px;
+}
+header div ul li:hover {
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: white;
+	color: darkblue;
+	display: inline-block;
+	font-family: arial;
+	font-weight: bold;
+	cursor: pointer;
+}
+.menuline {
+	float: right;
+	clear: both;
+}
+/***MAIN STYLES***/
+main {
+	height: 600px;
+	background-color: blue;
+}
+table {
+	border-collapse: collapse;
+	position: relative;
+	float: left;
+	clear: both;
+}
+tr, td {
+	border: 1px solid white;
+}
+.zero {
+	opacity: 0.8;
+	color: white; 
+	border: 0;
+}
+.first {
+	opacity: 0.8;
+	background-color: #3C8040;
+	color: white; 
+}
+.second {
+	opacity: 0.8;
+	background-color: #3C8040;
+	color: white; 
+}
+.third {
+	opacity: 0.8;
+	background-color: #004204;
+	color: white; 
+}
+.four {
+	opacity: 0.8;
+	background-color: purple;
+	color: white; 
+}
+td {
+	padding: 10px;
+	font-family: arial;
+	font-weight: bold;
+}
+#zero2 {
+	border: 0;
+	padding-bottom: 0;
+}
+fieldset {
+	position: relative;
+	float: right;
+	width: 400px;
+	height: 350px;
+	clear: right;
+	margin-top: 10px;
+	font-size: 20px;
+	border: 2px solid black;
+	color: white;
+}
+span {
+	color: red;
+}
+.inputer {
+	height: 35px;
+	border-radius: 7px;
+	background-color: darkblue;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+label {
+	margin-left: 150px;
+}
+.pass {
+	margin-left: 120px;
+}
+.qatar {
+	margin-left: 50px;
+	margin-right: 80px;
+}
+.qatar2 {
+	height: 25px;
+	border-radius: 7px;
+	background-color: darkblue;
+	color: white;
+	font-size: 15px;
+}
+.check {
+	border: 2px solid white;
+	border-radius: 7px;
+	background-color: darkblue;
+	color: white;
+	width: 130px;
+}
+form fieldset ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.busines {
+	margin-left: 10px;
+}
+.field2 {
+	height: 100px;
+}
+.million {
+	height: 35px;
+	border-radius: 7px;
+	background-color: darkblue;
+	color: white;
+	margin-left: 50px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.million2 {
+	margin-left: 130px;
+}
+.buttons {
+	margin-left: 540px;
+}
+.submit {
+	border: 1px solid white;
+	width: 200px;
+	height: 40px;
+	background-color: #02FA28;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: arial;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+.reset {
+	border: 1px solid white;
+	width: 200px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: arial;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+.reset:hover {
+	border: 1px solid white;
+	width: 200px;
+	height: 40px;
+	background-color: #470100;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: arial;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+.submit:hover {
+	border: 1px solid white;
+	width: 200px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: arial;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+/***FOOTER STYLES***/
+footer {
+	height: 100px;
+}
+footer ul li {
+	list-style: none;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	padding-top: 5px;
+	font-size: 10px;
+	margin-left: 10px;
+}
+footer {
+	display: flex;	
+}
+.text {
+	margin-right: 0px;
+}
+img {
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 50px;
+}
+.images {
+	display: flex;
+}
+.faceb:hover {
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: blue;
+}
+.googl:hover {
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: red;
+}
+.twiter:hover {
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: aqua;
+}

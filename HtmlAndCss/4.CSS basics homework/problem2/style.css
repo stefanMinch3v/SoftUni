@@ -1,0 +1,130 @@
+body {
+	background: url('colorful_dots_on_black.jpg') repeat;
+	margin: 0;
+}
+body header {
+	background: #ff0004;
+	background: -moz-linear-gradient(left,  #ff0004 0%, #ff0000 32%, #168400 32%, #006b17 62%, #0015d8 62%, #006b17 62%, #0015d8 63%, #0024b5 100%); 
+	background: -webkit-linear-gradient(left,  #ff0004 0%,#ff0000 32%,#168400 32%,#006b17 62%,#0015d8 62%,#006b17 62%,#0015d8 63%,#0024b5 100%);
+	background: linear-gradient(to right,  #ff0004 0%,#ff0000 32%,#168400 32%,#006b17 62%,#0015d8 62%,#006b17 62%,#0015d8 63%,#0024b5 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0004', endColorstr='#0024b5',GradientType=1 );
+	text-align: center;
+	color: yellow;
+	font: bold 40px Arial;
+	padding: 17px;
+}
+aside {
+	float: left;
+	margin: 10px;
+}
+nav {
+	background: white;
+	opacity: 0.9;
+	border-radius: 15px;
+	padding: 10px;
+}
+aside nav header {
+	background: none;
+	color: black;
+	text-decoration: underline;
+	font-size: 20px;
+	margin-left: 10px;
+}
+nav ul {
+	list-style: circle inside url("ok.png");
+}
+nav ul li {
+	padding: 5px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+nav ul li:hover {
+	background: red;
+	border-radius: 10px;
+}
+nav ul li:active {
+	background: yellow;
+	border-radius: 10px;
+}
+section {
+	float: right;
+	width: 86%;
+}
+section article {
+	background: white;
+	opacity: 0.96;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 10px;
+}
+section article #webColors {
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	background: red;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	opacity: 1;
+}
+section article #webSafeColors {
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	background: orange;
+	color: black;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	opacity: 1;
+}
+section article #RGB {
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	background: yellow;
+	color: black;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	opacity: 1;
+}
+section article #RGBA {
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	background: green;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	opacity: 1;
+}
+section article #HSLHSV {
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	background: blue;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	opacity: 1;
+}
+section article #lorem {
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	background: purple;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	opacity: 1;
+}
+section article div:first-letter {
+	font-size: 300%;
+}

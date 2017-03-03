@@ -1,0 +1,97 @@
+@font-face {
+	ont-family: Montserrat-Regular;
+	src: url(Montserrat-Regular.ttf);
+}
+body {
+	font-family: Montserrat-Regular, sans-serif;
+}
+.image {
+	background-image: url(icon-email.png);
+	width: 29px;
+	height: 44px;
+	position: relative;
+	z-index: 2;
+	float: left;
+}
+.password {
+	background-image: url(icon-password.png);
+	width: 29px;
+	height: 44px;
+	position: relative;
+	z-index: 2;
+	float: left;
+}
+.name {
+	background-image: url(icon-name.png);
+	width: 29px;
+	height: 44px;
+	position: relative;
+	z-index: 2;
+	float: left;
+}
+#check {
+	background-image: url(tick.png);
+	width: 18px;
+	height: 18px;
+
+}
+h1 {
+	color: orange;
+	margin-left: 70px;
+}
+section {
+	width: 400px;
+	height: 200px;
+	background-color: #c1c;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid brown;
+}
+section span #email {
+	background-image: url(icon-email.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 30px;
+}
+section span #pass {
+	background-image: url(icon-password.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 30px;
+}
+section span #name {
+	background-image: url(icon-name.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 30px;
+}
+.inputer {
+	position: relative;
+	width: 350px;
+	margin-bottom: 10px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid brown;
+	z-index: 1;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+button {
+	padding: 5px 25px;
+	border-radius: 5px;
+	border: 1px solid darkblue;
+	background-color: aqua;
+	float: left;
+	font-weight: bold;
+}
+button:hover {
+	cursor: pointer;
+	background-color: blue;
+}
+#check {
+	float: left;
+	margin-left: 20px;
+}

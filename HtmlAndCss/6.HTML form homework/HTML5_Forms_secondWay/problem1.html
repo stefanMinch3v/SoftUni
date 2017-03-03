@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 1 - Simple Form</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link href='css1.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="problem1.css">
+	<link rel="icon" type="image/png" href="favicon1.png">
+</head>
+<body>
+	<div class="wrap clearfix">
+		<header class="form-heading">
+			<h1>Enter the system</h1>
+			<p>It is necessary to login in Your account in order to sign in for a course.</p>
+		</header>
+
+		<div class="forms">
+			<form class="form-register">
+				<fieldset>
+					<legend><h2>Are you new? Register</h2></legend>
+					
+					<div class="form-row">
+						<input type="text" class="register-form-input" name="user-name" id="register-user-name" placeholder="User name" required>
+					</div>
+
+					<div class="form-row">
+						<input type="email" class="register-form-input" name="email" id="register-email" placeholder="Email" required>
+					</div>
+
+					<div class="form-row">
+						<input type="password" class="register-form-input" name="password" id="register-password" placeholder="Password" required>
+					</div>
+
+					<div class="form-row">
+						<input type="password" class="register-form-input" name="confirm-password" id="register-confirm-password" placeholder="Confirm Password" required>
+					</div>
+				
+				</fieldset>
+				
+				<div class="form-buttons">
+					<button name="Register" value="Register">Register</button>
+				</div>
+			</form>
+
+			<form class="form-login">
+				<fieldset>
+					<legend><h2>Already a student? Login</h2></legend>
+					
+					<div class="form-row">
+						<input type="text" class="login-form-input" name="user-name" id="login-user-name" placeholder="User name" required>
+					</div>
+
+					<div class="form-row">
+						<input type="password" class="login-form-input" name="password" id="login-password" placeholder="Password" required>
+					</div>					
+				</fieldset>
+				
+				<div class="form-buttons">
+					<div class="buttons-wrap">
+						<div class="checkbox-group">
+							<input type="checkbox" class="login-form-checkbox" name="Remeber-me" id="login-remember-me">
+							<label for="login-remember-me"><span></span>Remember me</label>
+						</div>
+						<button name="Login" value="Login" formtarget="_blank">Login</button>
+					</div>
+					<p class="forgot-password"><a href="#">Forgot password</a></p>
+				</div>
+			</form>
+		</div>
+	</div>			
+</body>
+</html>

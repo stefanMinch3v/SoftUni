@@ -1,0 +1,176 @@
+/***********MAIN************/
+body {
+	background-image: url(img/background.jpg);
+	background-position: center center;
+	height: 350px;
+	font-family: Arial, Helvetica ,sans-serif;
+	font-size: 20px;
+}
+#wrapper {
+	max-width: 800px;
+	height: 450px;
+	margin: 0 auto;
+	background-color: white;
+	opacity: 0.5;
+	padding: 40px;
+	border-radius: 50px;
+}
+
+/***********IMAGES**********/
+.image-one {
+	background-image: url(img/paraglider-icon.png);
+	width: 48px;
+	height: 48px;
+}
+.image-two {
+	background-image: url(img/sky-diver.png);
+	width: 48px;
+	height: 48px;
+}
+.image-three {
+	background-image: url(img/climbing.png);
+	width: 48px;
+	height: 48px;
+}
+.image-four {
+	background-image: url(img/about-us.png);
+	width: 48px;
+	height: 48px;
+}
+/************NAV************/
+nav ul li {
+	display: inline-block;
+	padding-right: 30px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #236892;
+	font-weight: bold;
+}
+nav ul li a {
+	display: flex;
+}
+nav ul li a:hover {
+	background-color: #236892;
+	border-radius: 10px;
+	opacity: 0.7;
+	color: darkblue;
+}
+/************SECTION***********/
+section  #email {
+	background-image: url(img/email.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 30px;
+}
+section  #name {
+	background-image: url(img/user1.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 30px;
+}
+section  #phone {
+	background-image: url(img/phone.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 30px;
+}
+section {
+	margin-top: 50px;
+	display: flex;
+}
+.fieldset-one {
+	width: 310px;
+	border-radius: 10px;
+	height: 200px;
+	padding-top: 50px;
+}
+.fieldset-two {
+	width: 310px;
+	border-radius: 10px;
+	height: 200px;
+	padding-top: 50px;
+}
+.legend-one {
+	margin-left: 40px;
+	color: #236892;
+	font-size: 20px;
+	font-weight: bold;
+}
+.legend-two {
+	margin-left: 40px;
+	color: #236892;
+	font-size: 20px;
+	font-weight: bold;
+}
+.inputer {
+	position: relative;
+	width: 250px;
+	margin-bottom: 10px;
+	height: 30px;
+	border-radius: 15px;
+	border: 2px solid #236892;
+}
+.inputer:focus {
+	color: #236892;
+}
+.inputerDate {
+	position: relative;
+	width: 300px;
+	margin-bottom: 10px;
+	height: 30px;
+	border-radius: 15px;
+	border: 2px solid #236892;
+	text-align: center;
+	color: 	#236892;
+	font-size: 20px;
+	font-weight: bold;
+}
+article {
+	width: 350px;
+	text-align: center;
+}
+.selector {
+	width: 300px;
+	height: 40px;
+	border-radius: 20px;
+	border: 2px solid #236892;
+	color: #236892;
+}
+label {
+	color: #236892;
+}
+/*********FOOTER***********/
+button {
+	padding: 10px 15px;
+	border-radius: 15px;
+	background: none;
+}
+.button-one {
+	color: red;
+	font-weight: bold;
+	font-size: 24px;
+	border: 2px solid red;
+}
+.button-two {
+	color: green;
+	font-weight: bold;
+	font-size: 24px;
+	border: 2px solid green;
+}
+.button-one:hover {
+	color: white;
+	background-color: red;
+	cursor: pointer;
+}
+.button-two:hover {
+	color: white;
+	background-color: green;
+	cursor: pointer;
+}
+footer {
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 100px;
+}
+

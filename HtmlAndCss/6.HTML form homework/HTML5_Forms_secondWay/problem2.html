@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 2 - Flight Order</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link href='css1.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="problem2.css">
+	<link rel="icon" type="image/png" href="favicon2.png">
+</head>
+<body>
+	<div class="wrap">
+		<form>
+			<fieldset class="wrap-inputs">
+				<legend class="form-title">
+					<h1>Flight Order</h1>
+				</legend>
+				
+				<div class="form-row clearfix">
+					<div class="col-left">
+						<label for ="From">From</label>
+						
+						<select name="From" id="From" required="true">
+							<option value="Enter a City type" selected>Enter a City type</option>
+							<option value="City type 1">City type 1</option>
+							<option value="City type 2">City type 2</option>
+							<option value="City type 3">City type 3</option>
+							<option value="City type 4">City type 4</option>
+							<option value="City type 5">City type 5</option>
+							<option value="City type 6">City type 6</option>
+							<option value="City type 7">City type 7</option>
+						</select>
+					</div>
+
+					<div class="col-right">
+						<label for ="To">To</label>
+						
+						<select name="To" id="To" required="true">
+							<option value="Eity a Class type" selected>Enter a City type</option>
+							<option value="City type 1">City type 1</option>
+							<option value="City type 2">City type 2</option>
+							<option value="City type 3">City type 3</option>
+							<option value="City type 4">City type 4</option>
+							<option value="City type 5">City type 5</option>
+							<option value="City type 6">City type 6</option>
+							<option value="City type 7">City type 7</option>
+						</select>
+
+						<div class="checkbox-group">
+							<input type="checkbox" class="checkbox" name="Prefer-directs" id="prefer-directs">
+							<label for="prefer-directs">Prefer-directs</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-row clearfix">
+					<div class="col-left">
+						<label for="departure-date">Departure Date</label>
+						<input type="date" name="departure-date" id="departure-date" placeholder="09.06.2014" required="true">
+					</div>
+
+					<div class="col-right">
+						<fieldset>
+							<legend class="legend-to-label">Time Interval</legend>
+							<p class="col-one-half"><input type="time" name="departure-time-start" id="departure-time-start" placeholder="00:20" required="true"></p>
+							<p class="col-one-half col-one-half-margin"><input type="time" name="departure-time-end" id="departure-time-end" placeholder="05:00" required="true"></p>
+						</fieldset>
+					</div>
+				</div>
+
+				<div class="form-row clearfix">
+					<div class="col-left">
+						<label for="return-date">Return Date</label>
+						<input type="date" name="return-date" id="return-date" placeholder="09.06.2014" required="true">
+					</div>
+
+					<div class="col-right">
+						<fieldset>
+							<legend class="legend-to-label">Time Interval</legend>
+							<p class="col-one-half"><input type="time" name="return-time-start" id="return-time-start" placeholder="00:20" required="true"></p>
+							<p class="col-one-half col-one-half-margin"><input type="time" name="return-time-end" id="return-time-end" placeholder="05:00" required="true"></p>
+						</fieldset>
+					</div>
+				</div>
+
+				<div class="form-row clearfix">
+					<div class="col-left">
+						<fieldset name="Pass=engers-count">
+							<div class="col-one-third">
+								<label for="12-or-bigger">12+</label>
+								<input type="number" name="12-or-bigger" id="12-or-bigger" min="1" max="50" required="true">
+							</div>
+							
+							<div class="col-one-third col-one-third-margin">
+								<label for="2-to-12">2-12</label>
+								<input type="number" name="2-to-12" id="2-to-12" min="1" max="50" required="true">
+							</div>
+							
+							<div class="col-one-third col-one-third-margin">
+								<label for="0-to-2">0-2</label>
+								<input type="number" name="0-to-2" id="0-to-2" min="1" max="50" required="true">
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="col-right">
+						<label for="flight-class">Choose class</label>
+						
+						<select name="flight-class" id="flight-class" required="true">
+							<option value="Economy" selected>Economy</option>
+							<option value="Class type 1">Class type 1</option>
+							<option value="Class type 2">Class type 2</option>
+							<option value="Class type 3">Class type 3</option>
+							<option value="Class type 4">Class type 4</option>
+							<option value="Class type 5">Class type 5</option>
+							<option value="Class type 6">Class type 6</option>
+							<option value="Class type 7">Class type 7</option>
+						</select>
+					</div>
+				</div>
+
+			</fieldset>
+
+			<div class="wrap-buttons">
+				<button>Search</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

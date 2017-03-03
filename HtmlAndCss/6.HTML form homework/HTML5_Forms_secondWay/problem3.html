@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 3 - WordPress Theme</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link href='css1.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="Problem3.css">
+	<link rel="icon" type="image/png" href="word.png">
+</head>
+<body>
+	<div class="wrap">
+		<img src="word.png">
+		<div>
+			<form>
+				<p>Upload a theme</p>
+				<input type="file" name="themezip">
+			</form>
+			<form method="get" action="https://wordpress.org/themes/search.php">
+				<p>Or search in wordpress</p>
+				<input type="search" name="search">
+				<button type="submit" class="image" name="Search" formtarget="_blank"></button>
+			</form>
+		</div>
+</body>
+</html>

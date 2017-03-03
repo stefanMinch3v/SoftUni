@@ -1,0 +1,49 @@
+.img1 {
+	border: 1px hidden black;
+	width: 900px;
+	height: 600px;
+	background: -webkit-radial-gradient(-20%,yellow,white,blue);
+	background: radial-gradient(at 10%,yellow,white,blue);
+}
+.img2 {
+	position: absolute;
+	margin-top: -380px;
+	margin-left: 40px;
+}
+.img3 {
+	position: absolute;
+	margin-top: -410px;
+	margin-left: 180px;
+}
+.img4 {
+	position: absolute;
+	margin-top: -240px;
+	margin-left: 260px;
+}
+.img5 {
+	position: absolute;
+	margin-top: -445px;
+	margin-left: 410px;
+}
+.img6 {
+	position: absolute;
+	margin-top: -400px;
+	margin-left: 490px;
+}
+.img7 {
+	position: absolute;
+	margin-top: -370px;
+	margin-left: 670px;
+}
+.text {
+	position: absolute;
+	margin-top: -590px;
+	margin-left: 480px;
+	font-size: 300%;
+	font-family: 'SoftUni Hawaii Party!!!';
+	color: #ffcc00;
+}
+@font-face {
+    font-family: 'SoftUni Hawaii Party!!!';
+    src: url(Animated.ttf);
+}

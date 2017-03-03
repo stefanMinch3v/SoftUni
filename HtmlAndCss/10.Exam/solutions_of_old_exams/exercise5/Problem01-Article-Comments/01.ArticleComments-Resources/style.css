@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+article {
+	width: 648px;
+	clear: both;
+	border-bottom: 1px solid grey;
+}
+header {
+	border-bottom: 1px solid grey;
+	width: 648px;
+}
+.main-img {
+	float: left;
+}
+img {
+	float: right;
+	margin-right: 10px;
+}
+.images:hover {
+	cursor: pointer;
+}
+b {
+	float: right;
+	color: grey;
+}
+date {
+	color: #aaa;
+	font-weight: bold;
+	font-size: 13px;
+}
+span {
+	color: red;
+}
+a {
+	color: black;
+}
+a:hover {
+	cursor: pointer;
+	color: gray;
+}
+hr {
+	display: none;
+}
+h4 {
+	margin-bottom: 0;
+}

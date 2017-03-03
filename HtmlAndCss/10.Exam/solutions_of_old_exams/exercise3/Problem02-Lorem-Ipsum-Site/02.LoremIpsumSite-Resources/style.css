@@ -1,0 +1,136 @@
+body {
+	background-color: #fff;
+	font-family: Tahoma, sans-serif;
+	margin: 0;
+}
+.section:after,
+article:after {
+	clear:both;
+	content:"";
+	display:block;
+	height:1%;
+	line-height:0;
+	visibility:hidden;
+}
+img {
+	border: 0;
+}
+/**********HEADER**********/
+header {
+	background-color: #eee;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 5px 0;
+}
+header > div,
+footer > div {
+	width: 920px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+/***HEADER Logo***/
+header .logo a {
+	background: url(logo.png) no-repeat center top;
+	display: block;
+	height: 10px;
+	width: 100px;
+	padding-top: 68px;
+}
+header .logo {
+	float: left;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+/***NAVIGATION***/
+#navigation {
+	display: inline-block;
+	list-style: none;
+	line-height: 100px;
+	margin: 0;
+	padding: 0;
+}
+#navigation li.active a {
+	color: green;
+}
+#navigation ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	width: 160px;
+	text-align: center;
+	font-weight: bold;
+}
+#navigation li a {
+	color: #818181;
+	font-size: 15px;
+	line-height: 30px;
+	text-decoration: none;
+	padding: 20px;
+	border-radius: 10px;
+}
+#navigation li a:hover {
+	background: rgba(160, 176, 176, 0.44);
+	color: red;
+}
+/**********ARTICLE**********/
+article > div {
+	float: left;
+	width: 400px;
+	margin: 0 20px;
+}
+article {
+	width: 880px;
+	margin: 0 auto;
+	padding: 40px 50px 20px 50px;
+}
+p {
+	color: #585858;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 0 30px;
+}
+section > article > h1 {
+	margin-left: 20px;
+}
+/**********FOOTER**********/
+footer {
+	background-color: #eee;
+	border-top: 1px solid #d8d8d8;
+	padding: 30px 0;
+}
+#logos {
+	float: right;
+	display: inline-block;
+	margin-right: 30px;
+}
+#logos a {
+	background: url(icons.png) no-repeat;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin: 0 10px;
+}
+#logos a.googleplus {
+	background-position: 0 -40px;
+}
+#logos a.twitter {
+	background-position: 0 -80px;
+}
+#logos a.tumbler {
+	background-position: 0 -120px;
+}
+#logos a.facebook:hover {
+	background-position: -40px 0;
+}
+#logos a.googleplus:hover {
+	background-position: -40px -40px;
+}
+#logos a.twitter:hover {
+	background-position: -40px -80px;
+}
+#logos a.tumbler:hover {
+	background-position: -40px -120px;
+}

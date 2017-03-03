@@ -1,0 +1,100 @@
+#wrapper {
+	font: 13px Tahoma, Helvetica, sans-serif;
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	font-size: 28px;
+}
+h3 {
+	font: 16px Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.search {
+	float: left;
+	width: 180px;
+	position: relative;
+	bottom: 25px;
+}
+p {
+	width: 570px;
+	float: left;
+}
+section:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	zoom: 1;
+}
+.search > label {
+	display: block;
+}
+.search button {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: 0;
+	position: absolute;
+	right: 35px;
+	bottom: 10px;
+	cursor: pointer;
+}
+input,
+select {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 5px;
+	margin: 5px 0;
+}
+img {
+	width: 20px;
+}
+h3 {
+	margin-bottom: 10px;
+}
+.left {
+	float: left;
+	width: 200px;
+}
+.right {
+	float: right;
+	width: 570px;
+}
+label {
+	display: block;
+}
+.form-control {
+	display: inline-block;
+	box-sizing: border-box;
+}
+.select-room {
+	width: 69%;
+	margin-bottom: 10px;
+}
+select {
+	width: 91%;
+}
+.count-rooms {
+	width: 30%;
+}
+.date {
+	width: 49%;
+}
+.date input {
+	width: 91%;
+}
+.book {
+	float: right;
+	margin-top: 20px;
+	background-color: #32A2E4;
+	color: #fff;
+	width: 150px;
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: bold;
+	height: 30px;
+}

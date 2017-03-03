@@ -1,0 +1,77 @@
+@font-face {
+    font-family: yanonekaffeesatz;
+    src: url(yanonekaffeesatz.ttf);
+}
+body {
+	background-image: url(form-background.png);
+	font-family: yanonekaffeesatz, Arial, sans-serif;
+}
+section {
+	background-image: url(letter-background.png);
+	border-radius: 5px;
+	max-width: 440px;
+	height: 500px;
+	margin-left: 390px;
+	margin-top: 50px;
+	position: absolute;
+	z-index: 1;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+h1 {
+	position: absolute;
+	margin-top: 0;
+	margin-left: 550px;
+	color: #aaa;
+}
+.image {
+	margin-left: 350px;
+	position: absolute;
+	margin-top: 380px;
+	z-index: 2;
+}
+.image2 {
+	margin-left: 350px;
+	position: absolute;
+	margin-top: 200px;
+	z-index: 0.5;
+}
+h3 {
+	margin-bottom: 0;
+}
+label {
+	display: block;
+}
+input {
+	width: 417px;
+	border-radius: 2px;
+	opacity: 0.3;
+}
+input:focus {
+	opacity: 1;
+}
+textarea {
+	opacity: 0.3;
+	width: 417px;
+}
+textarea:focus {
+	opacity: 1;
+}
+button {
+	background-image: url(letter-background.png);
+	border: none;
+	font-size: 15px;
+	color: #cc1c11;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-left: 150px;
+	z-index: 5;
+	
+}
+button:hover {
+	background-color: red;
+	background-image: none;
+	color: black;
+	cursor: pointer;
+	z-index: 5;
+}

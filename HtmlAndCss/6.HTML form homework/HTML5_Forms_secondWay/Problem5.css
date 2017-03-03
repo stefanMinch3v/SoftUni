@@ -1,0 +1,249 @@
+/* --- Make box-sizing of whole document to border-box --- */
+
+html {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* --- clearfix for floated layouts --- */
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+ 
+.clearfix:after {
+	clear: both;
+}
+ 
+.clearfix {
+	*zoom: 1;
+}
+
+
+/* --- Global styling  --- */
+
+body {
+	width: 100%;
+	height: auto;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	background-color: #f7f7f7;
+	color: #333333;
+	padding: 3%;
+}
+
+header	{
+	padding: 10px;
+}
+
+input {
+	font-size: inherit;
+	margin: 0px;
+	width: 100%;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+.small-copy {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* --- Layout --- */
+
+.wrap {
+	max-width: 1200px;
+	width: 95%;
+	height: auto;
+	padding: 20px;
+	background-color: #FFF;
+	border-radius: 6px;
+	box-shadow:
+		0px 2px 6px 0px rgba(0,0,0, 0.1),	
+		0px 4px 40px 0px rgba(0,0,0, 0.1);	
+	margin: 0 auto;
+}
+
+.products {
+	position: relative;
+	float:left;
+	width: 70%;
+}
+
+.filters {
+	position: relative;
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
+.product-card {
+	position: relative;
+	float:left;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+.wrap-product-card {
+	position: relative;
+	float:left;
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.2);
+	background-color: white;
+}
+
+ul {
+	position: relative;
+	width: 100%;
+}
+
+li {
+	display: inline;
+	position: relative;
+	float:left;
+	width: 33.33%;
+	height: auto;
+	padding: 10px;
+}
+
+.link {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 6px;
+}
+
+.link:hover {
+	border: 1px solid rgba(60, 120, 180, 1);
+}
+
+.input-group {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-bottom: 32px;
+}
+
+label {
+	display: block;
+	text-align: center;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+.left {
+	position: relative;
+	float: left;
+	width: 50%
+}
+
+.right {
+	position: relative;
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+.wrap-filters {
+	position: relative;
+	width: 100%;
+	padding: 20px 20px 0 20px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.product-image {
+	position: relative;
+	width: 100%;
+	height: 120px;
+	background-image: url("mackboir.png");
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 14%;
+	margin-bottom: 24%;
+}
+
+.tag-new {
+	position: absolute;
+	top: -10px;
+	left: 0;
+	width: 53px;
+	height: 53px;
+	background-image: url("../images/label-new.png");
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.hide-tag-new {
+	visibility: hidden;
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0, 0.2));
+    filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='3'/><feOffset dx='2' dy='2' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.2)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2, Color='#000')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2, Color='#000')";
+}
+
+
+.product-price {
+	position: absolute;
+	bottom:0;
+	right:0;
+	width: auto;
+	height: auto;
+	padding: 10px 32px;
+	text-align: right;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+.main-color-bg {
+	background-color: rgba(60, 120, 180, 1);
+}
+
+.main-color-copy {
+	color: rgba(60, 120, 180, 1);
+}
+
+.main-color-border {
+	border-color: rgba(60, 120, 180, 0.3);
+}
+
+.main-color-bg-transp {
+	background-color: rgba(60, 120, 180, 0.03);
+}
+

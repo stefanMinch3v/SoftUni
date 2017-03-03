@@ -1,0 +1,163 @@
+@font-face {
+	font-family: RicksAmericanNF;
+    src: url(font/RicksAmericanNF.ttf);
+}
+/**********MAIN STYLES***********/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: black;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+header, 
+nav {
+	font-family: RicksAmericanNF;
+}
+header {
+	font-size: 60px;
+	text-transform: uppercase;
+	color: orange;
+}
+nav {
+	font-size: 30px;
+}
+section {
+	background-color: #3C3C3C;
+}
+article h2 {
+	font-size: 23px;
+}
+p {
+	font-size: 16px;
+}
+/**********HEADER************/
+header {
+	text-align: center;
+	letter-spacing: 20px;
+}
+/***************NAV***********/
+nav ul li  a {
+	color: #FFA400;
+	text-decoration: none;
+	letter-spacing: 5px;
+	padding: 5px 50px;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 8px;
+}
+nav ul {
+	text-align: center;
+	margin-bottom: 20px;
+}
+nav ul li a:hover {
+	background-color: #FFA300;
+	color: black;
+	border-radius: 20px;
+}
+/*********SECTION***********/
+section h2 {
+	text-transform: uppercase;
+	width: 550px;
+	color:#FFA400;;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-shadow: 1px 2px black;
+}
+section {
+	padding: 10px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+section p {
+	width: 500px;
+	color: #FFA400;;
+	text-align: justify;
+	text-shadow: 1px 1px black;
+}
+section article a {
+	text-decoration: none;
+	color: #FFA400;;
+	font-weight: bold;
+}
+article .border p {
+	padding-left: 10px;
+}
+.article-two {
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+/*************IMAGES***********/
+.image-one {
+	background-image: url(img/robert-johnson.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 220px;
+	margin-right: 6px;
+	height: 200px;
+	float: left;
+}
+.image-two {
+	background-image: url(img/blues-legends.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 200px;
+	border-radius: 8px;
+	height: 160px;
+
+}
+.image-three {
+	background-image: url(img/BBKing.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+}
+.image-four {
+	background-image: url(img/howlin_wolf.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 220px;
+	height: 240px;
+	float: left;
+	margin-right: 10px;
+}
+.border-two {
+	border: 1px solid orange;
+	border-radius: 10px;
+	width: 200px;
+	margin-bottom: 10px;
+	background-color: black;
+}
+.border-one {
+	border: 1px solid orange;
+	border-radius: 10px;
+	width: 200px;
+	margin-bottom: 10px;
+	background-color: #64655B;
+}
+.border-two p,
+.border-one p {
+	margin-left: 10px;
+}
+.border-two:hover,
+.border-one:hover {
+	background-color: #FFA400;
+	cursor: pointer;
+}
+.border-two:hover p,
+.border-one:hover p {
+	color: black;
+}
+/**********FOOTER*************/
+footer p {
+	color: #FFA400;;
+	text-align: center;
+	margin: 10px 0;
+}

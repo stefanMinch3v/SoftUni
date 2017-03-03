@@ -1,0 +1,125 @@
+/***MAIN STYLES***/
+body {
+	background-color: skyblue;
+	font-family: tahoma;
+}
+#wrapper {
+	border: 1px solid darkblue;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+/***HEADER STYLES***/
+header {
+	background-color: #004d00;
+	width: 100%;
+	border: 1px solid red;
+	height: 20%;
+	color: blue;
+}
+header ul {
+	list-style: none;
+	display: flex;
+	margin-left: 201px;
+}
+header ul li:hover {
+	background-color: red;
+}
+header ul li {
+	margin-left: 10px;
+}
+/***ARTICLE STYLES***/
+section {
+	width: 60%;
+	margin-left: 10%;
+}
+.mainart {
+	width: 100%;
+}
+.article2 {
+	width: 100%;
+}
+.art1 {
+	float: left;
+	clear: both;
+	padding-right: 50px;
+}
+.art2 {
+	float: left;
+}
+.art3 {
+	float: right;
+	clear: right;
+}
+/***FOOTER STYLES***/
+footer {
+	width: 100%;
+	margin-top: 70px;
+	text-align: center;
+}
+/***MENU STYLES***/
+aside {
+	width: 20%;
+}
+aside ul {
+	list-style: none;
+}
+aside ul li {
+	border: 1px solid white;
+	text-align: center;
+	color: red;
+	background-color: green;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+aside ul li:hover {
+	background-color: white;
+	cursor: pointer;
+}
+/* Extra Large screens */
+@media all and (min-width: 961px) {
+  
+  header    				{ order: 1;}
+  aside	 					{ order: 3;}
+  section    				{ order: 2;}
+  footer 	 				{ order: 4;}
+  header ul 				{width: 80%;margin-left: 5%;}
+  header ul li 				{width: 80%;text-align: center;background-color: aqua;}
+}
+/* Large screens */
+@media all and (max-width: 960px) {
+  
+  header    				{ order: 1;}
+  aside	 					{ order: 3;}
+  section    				{ order: 2;}
+  footer 	 				{ order: 4;}
+  header ul 				{width: 80%;margin-left: 5%;}
+  header ul li 				{border: 1px solid silver;width: 80%;text-align: center;background-color: silver;}
+  .art3 					{position: relative;float: none;margin-right: 200px;}
+}
+/* Medium screens */
+@media all and (max-width: 780px) {
+  
+  header    				{ order: 1;}
+  aside	 					{ order: 2;width: 100%;margin-right: 10%;}
+  section    				{ order: 3;}
+  footer 	 				{ order: 4;}
+  header ul 				{width: 80%;margin-left: 5%;}
+  header ul li 				{border: 1px solid white;width: 80%;text-align: center;margin-left: 0;background-color: gold;}
+  aside ul					{width: 100%;margin-left: 0}
+  aside ul li 				{padding: 5px;}
+  .art3 					{position: relative;float: none;margin-right: 200px;}
+}
+/* Small screens */
+@media all and (max-width: 640px) {
+  
+  header    				{ order: 1;}
+  aside	 					{ order: 3;width: 100%;margin-right: 10%;}
+  section    				{ order: 2;}
+  footer 	 				{ order: 4;}
+  header ul 				{display: inline-table;width: 100%;margin-left: 5%;}
+  header ul li 				{border: 1px solid white;width: 80%;text-align: center;margin-left: 0;background-color: gold;}
+  aside ul					{width: 100%;margin-left: 0}
+  aside ul li 				{padding: 5px;}
+}

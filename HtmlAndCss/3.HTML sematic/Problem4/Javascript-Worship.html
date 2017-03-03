@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<canvas id="myCanvas" width="400" height="400" style="border:5px dotted red;">
+		Your browser does not support the HTML5 canvas tag.
+		</canvas>
+		<script>
+			var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+
+			ctx.font = "50px Arial";
+			ctx.fillText("I love JavaScript",20,80);
+			ctx.fillStyle = "black";
+
+			ctx.fillStyle = "#ffdb4d";
+			ctx.fillRect(90,120,220,210);
+
+			
+			ctx.fillStyle = "black";
+			ctx.font = "100px Arial";
+			ctx.fillText("JS",170,280);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+/***MAIN***/
+body {
+	background-color: white;
+	width: 900px;
+}
+#wrapper {
+	border: 1px solid #ccc;
+	height: 400px;
+	background: #ccc;
+}
+h1 {
+	color: darkblue;
+}
+a {
+	color: white;
+	margin-left: 250px;
+}
+span {
+	color: darkblue;
+}
+/***FORMS***/
+.form1 {
+	width: 400px;
+	float: left;
+	clear:both;
+	margin-left: 40px;
+}
+.form2 {
+	float: left;
+	border: 1px solid darkblue;
+	background-color: darkblue;
+	width: 400px;
+	padding: 10px;	
+}
+input {
+	margin: 3px 0;
+	padding: 8px;
+}
+
+label {
+	color: white;
+}
+#login {
+	margin-left: 250px;
+	background-color: darkblue;
+	border: 2px solid orange;
+	padding: 5px 30px;
+}
+#register {
+	margin-left: 82px;
+	padding: 5px 40px;
+	border: 2px solid darkblue;
+	color: darkblue;
+}
+
+

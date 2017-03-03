@@ -1,0 +1,38 @@
+body {
+	font-family: Verdana, Arial, Helvetica;
+}
+article {
+	width: 280px;
+	border: 1px solid #D8D8D8;
+    box-shadow: 2px 2px 5px #888888;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	width: 650px;
+}
+h4 {
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+h4:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+date {
+	font-size: 10px;
+	color: #868C90;
+}
+p {
+	font-size: 13px;
+}
+img {
+	float: left;
+	padding: 5px;
+}

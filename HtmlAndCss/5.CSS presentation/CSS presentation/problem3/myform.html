@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="style1.css" type="text/css" />
+	</head>
+	<body>
+		<section>
+			<form>
+				<h2>Step 1:Your details!</h2>
+					<p>Name<input type="text" name="name" placeholder="First and last name" size="40" /></p>
+					<p>Email<input type="mail" name="email" placeholder="example@domain.com" size="40" /></p>
+					<p>Phone<input type="phone" name="phone" placeholder="eg.+4576670000" size="39"/></p>
+				<h2>Step 1:Delivery address</h2>
+					<p>Address<textarea rows="8" placeholder=""></textarea></p>
+					<p>Post code<input type="text" name="postcode" placeholder=""size="38" /></p>
+					<p>Country<input type="text" name="country" placeholder=""size="40" /></p>
+				<h2>Step 1:Card details</h2>
+					<p>
+						Card type<br />
+						<label><input type="radio" name="cardtype"/><img src="visa.png" width="24px" height="16px"/>Visa</label>
+						<label><input type="radio" name="cardtype"/><img src="amex.png" width="24px" height="16px"/>Amex</label>
+						<label><input type="radio" name="cardtype"/><img src="mastercard.png" width="24px" height="16px"/>Mastercard</label>
+					</p>
+					<p>Card number<input type="text" name="cardnumber" placeholder=""size="40" /></p>
+					<p>Security code<input type="text" name="securitycode" placeholder=""size="39" /></p>
+					<p>Name on card<input type="text" name="cardname" placeholder="exact name as on the card"size="39" /></p>
+					<center><button name="buy" id="buybutton" onclick="javascript:alert('Naigrah va s 2000 leva')">BUY IT!</button></center>
+			</form>
+		</section>
+	</body>
+</html>

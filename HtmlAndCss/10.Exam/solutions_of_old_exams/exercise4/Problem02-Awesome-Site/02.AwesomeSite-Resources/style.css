@@ -1,0 +1,141 @@
+/***********FONTS***********/
+@font-face {
+    font-family: Fairview_Regular;
+    src: url(Fairview_Regular.otf);
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito-Regular'), url(http://fonts.gstatic.com/s/nunito/v7/cSNs3NwpEgPVRQzvkh3NeQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito-Bold'), url(http://fonts.gstatic.com/s/nunito/v7/TttUCfJ272GBgSKaOaD7KltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+/***********MAIN STYLES**************/
+#wrapper {
+	margin: 0 auto;
+}
+/*********HEADER*********/
+header {
+	font-family: Fairview_Regular;
+	font-weight: bold;
+	background-color: #E05E43;
+	color: white;
+	text-align: center;
+	font-size: 100px;
+}
+h1:hover {
+	color: black;
+	cursor: pointer;
+}
+/**********NAV-TOP********/
+.nav-top {
+	font-family: Fairview_Regular;
+	margin-top: 10px;
+}
+.nav-top ul {
+	text-align: center;
+	font-size: 23px;
+}
+.nav-top ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.nav-top ul li a {
+	text-decoration: none;
+	color: #585858;
+	padding: 5px 10px;
+}
+.nav-top ul li a:hover {
+	color: black;
+}
+.nav-top ul li .text-color {
+	background-color: #E05E43;
+	color: white;
+}
+/**************SECTION*************/
+section {
+	font-family: Nunito;
+	width: 670px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+article h3 {
+	font-size: 25px;
+	font-weight: bold;
+}
+article date,
+article h4 {
+	font-size: 17px;
+	font-weight: bold;
+}
+article p {
+	color: #5B4A36;
+
+}
+article .border {
+	border-bottom: 1px solid #ccc;
+	margin: 12px 0;
+}
+article ul {
+	display: flex;
+}
+article ul li {
+	width: 200px;
+}
+span {
+	text-decoration: underline;
+	color: red;
+}
+span:hover {
+	color: black;
+	cursor: pointer;
+}
+/***********FOOTER************/
+footer,
+.nav-bottom {
+	font-family: Arial, sans-serif;
+}
+footer {
+	background-color: #222222;
+}
+footer hr {
+	width: 90%;
+	color: #3F3F3F;
+	margin-bottom: 17px;
+}
+.nav-bottom {
+	padding: 20px 0;
+}
+.nav-bottom ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.nav-bottom ul {
+	text-align: center;
+	color: white;
+}
+.nav-bottom ul li a {
+	text-decoration: none;
+	color: #AEA293;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+.nav-bottom ul li a:hover {
+	background-color: #AAAAAA;
+	color: red;
+}
+.author {
+	text-align: center;
+	color: #3F3F3F;
+}
+.author:hover {
+	color: #AEA293;
+	cursor: pointer;
+}

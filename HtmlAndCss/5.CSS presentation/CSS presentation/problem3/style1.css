@@ -1,0 +1,51 @@
+body {
+	background: #ccc;
+	font: 13px arial;
+}
+section {
+	margin: 0 auto;
+	width: 35%;
+	height: auto;
+	background: url(formBackground.jpg);
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 15px;
+}
+section h2 {
+	color: white;
+}
+section p {
+	border: 1px solid white;
+	background: #C2B8C2;
+	opacity: 0.8;
+	width: 90%;
+	padding: 13px;
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-bottom: 2px;
+}
+section form input {
+	border: 1px solid white;
+	padding: 5px;
+	background: white;
+	border-radius: 4px;
+	margin-left: 12%;
+}
+section form textarea {
+	border: 1px solid white;
+	width: 56%;
+	padding: 7px;
+	background: white;
+	border-radius: 4px;
+	margin-left: 10%;
+}
+section form #buybutton {
+	border: none;
+	background: #000C36;
+	color: white;
+	border-radius: 15px;
+	padding: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 8px;
+}

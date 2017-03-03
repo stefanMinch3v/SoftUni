@@ -1,0 +1,124 @@
+.main {
+	width: 50%;
+	height: 250px;
+	border-top: 6px dotted yellow;
+	border-right: 10px solid green;
+	border-bottom: 10px double blue;
+	border-left: 5px dashed red;
+	box-shadow: 15px 15px 3px #62665C;
+}
+.text {
+	text-align: center;
+	font-size: 40px;
+	font-family: verdana;
+	text-shadow: 15px 12px 8px #999999;
+}
+.borders {
+	border: 4px solid;
+	width: 540px;
+	height: 100px;
+	margin-left: 70px;
+	border-radius: 70px;
+	border-color: darkblue;
+}
+.border1 {
+	border: 4px solid;
+	width: 532px;
+	height: 90px;
+	margin-left: 0px;
+	border-radius: 70px;
+	border-color: yellow;
+}
+.border2 {
+	border: 3px solid;
+	width: 525px;
+	height: 83px;
+	margin-left: 0px;
+	border-radius: 70px;
+	border-color: red;
+}
+.text1 {
+	position: absolute;
+	font-size: 15px;
+	margin-left: 200px;
+}
+.button1 {
+	width: 150px;
+	position: absolute;
+	margin-left: 360px;
+	margin-top: -80px;
+	border: 3px outset #ff8c1a;
+	background-color: #ff8c1a;
+}
+.button2 {
+	width: 150px;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: -80px;
+	border: 3px outset #ff8c1a;
+	background-color: #ff8c1a;
+}
+.circle1 {
+	position: absolute;
+	border: 1px solid #6B6767;
+	margin-left: 480px;
+	margin-top: -100px;
+	opacity: 0.6;
+	border-radius: 50px;
+	width: 25px;
+	height: 25px;
+	background-color: #6B6767;
+}
+.circle11 {
+	border: 2px dashed white;
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+	padding: 1px;
+	margin: 4px;
+}
+.circle2 {
+	position: absolute;
+	border: 1px solid #6B6767;
+	margin-left: 560px;
+	margin-top: -131px;
+	opacity: 0.6;
+	border-radius: 50px;
+	width: 45px;
+	height: 45px;
+	background-color: #6B6767;
+}
+.circle22 {
+	border: 3px dashed white;
+	width: 30px;
+	height: 30px;
+	border-radius: 6px;
+	padding: 0px;
+	margin: 5px;
+}
+.circle3 {
+	position: absolute;
+	border: 1px solid #6B6767;
+	margin-left: 610px;
+	margin-top: -205px;
+	opacity: 0.6;
+	border-radius: 50px;
+	width: 130px;
+	height: 80px;
+	background-color: #6B6767;
+}
+.circle33 {
+	border: 3px dashed white;
+	width: 70px;
+	height: 45px;
+	border-radius: 15px;
+	padding-left: 40px;
+	padding-bottom: 13px;
+	margin: 10px 5px 1px 5px;
+}
+#cool {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 10px 5px 0px;
+}

@@ -1,0 +1,80 @@
+body {
+	width: 1000px;
+	font-family: 'Vollkorn', serif;
+}
+body header {
+	text-align: center;
+	font-size: 40px;
+}
+article header {
+	font-size: 30px;
+	border: 1px solid grey;
+	background-color: grey;
+	padding: 18px;
+}
+h2 {
+	font-size: 60px;
+	text-align: center;
+}
+p {
+	font-family: 'Tahoma', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+footer {
+	font-family: 'Tahoma', sans-serif;
+	font-size: 16px;
+	border: 1px solid grey;
+	background-color: grey;
+	border-radius: 5px;
+	width: 80%;
+	text-align: center;
+	padding: 15px;
+	color: white;
+}
+section {
+	display: flex;
+	justify-content: space-between;
+}
+article {
+	border: 1px solid grey;
+	width: 300px;
+	height: 640px;
+	background-color: #e6e6e6;
+}
+.footer1 {
+	margin-left: 13px;
+	margin-top: 194px;
+}
+.footer2 {
+	margin-left: 13px;
+	margin-top: 140px;
+}
+.footer2:hover {
+	border: 1px solid aqua;
+	background-color: aqua;
+}
+.footer3 {
+	margin-left: 13px;
+	margin-top: 30px;
+}
+footer:hover {
+	background-color: aqua;
+	cursor: pointer;
+}
+.art2:hover header,
+.art2:hover footer {
+	cursor: pointer;
+	background-color: aqua;
+}
+.art2:hover h2 {
+	color: aqua;
+	cursor: pointer;
+}
+.art2:hover {
+	cursor: pointer;
+}
+.art2:hover header {
+	color: white;
+}
+

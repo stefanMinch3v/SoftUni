@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>problem2</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div>
+			<h1>FLIGHT ORDER</h1>
+			<label>From</label><br />
+			<select name="city">
+				<option value="value" selected="selected">enter a city</option>
+				<option value="value1">Sofia</option>
+				<option value="value2">Burgas</option>
+				<option value="value3">Varna</option>
+			</select>
+			<label>To</label>
+			<select name="city">
+				<option value="value" selected="selected">enter a city</option>
+				<option value="value1">Sofia</option>
+				<option value="value2">Burgas</option>
+				<option value="value3">Varna</option>
+			</select><input type="checkbox" name="box" />Prefer directs<br />
+			<label>Departure date</label><br />
+			<input type="text" name="depDate" value="09.06.2014" size="30" />
+			<label>Return date</label>
+			<input type="text" name="retDate"value="13.06.2014" size="30" /><br />
+			<label>+12</label>
+			<input type="number" min="0" max="12" size="5" />
+			<label>2-12</label>
+			<input type="text" name="number"size="5" value="0"  />
+			<label>0-2</label>
+			<input type="text" name="number"size="5" value="0" />
+			
+			<label>Time interval</label>
+			<input type="text" name="timeInterval" value="00.20" /><input type="text" name="timeInterval" value="05.00" />
+			<label>Time interval</label>
+			<input type="text" name="timeInterval" value="16.30" /><input type="text" name="timeInterval" value="22.30" />
+			<p>Choose class<br />
+				<select name="class">
+					<option value="valuee">Economy</option>
+					<option value="valuee2">Bisness</option>
+				</select>
+			</p>
+			<input type="submit" name="submit" value="Search" class="button"/>
+		</div>
+	</body>
+</html>

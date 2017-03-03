@@ -1,0 +1,49 @@
+article {
+	width: 145px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+}
+section {
+	display: flex;
+}
+body {
+	font: Tahoma, sans-serif;
+}
+p,
+pre {
+	font-size: 11px;
+}
+button {
+	font-size: 10px;
+	width: 120px;
+	position: relative;
+	border: none;
+	background-color: grey;
+	cursor: pointer;
+	border-radius: 3px;
+}
+h3 {
+	font-size: 15px;
+	margin-bottom: 0;
+}
+img {
+	border: 1px solid black;
+	cursor: pointer;
+}
+button > img {
+	border: none;
+	display: block;
+}
+span {
+	color: red;
+	font-weight: bold;
+}
+.text {
+	position: absolute;
+	bottom: 1px;
+	right: 5px;
+}
+.article-three h3 {
+	margin-bottom: 5px;
+}

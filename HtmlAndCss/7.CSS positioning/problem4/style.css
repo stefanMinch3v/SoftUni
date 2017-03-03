@@ -1,0 +1,152 @@
+/***GENERAL STYLES***/
+body {
+	width: 1000px;
+	background-color: black;
+}
+.wrapper {
+	width: 900px;
+	margin-left: 200px;
+	background-color: white;
+	height: 1325px;
+}
+h1 {
+	font-size: 1.4em;
+	color: green;
+	font-family: arial;
+	font-weight: bold;
+}
+b {
+	font-weight: bold;
+	font-family: arial;
+}
+span {
+	font-weight: bold;
+}
+.twilight {
+	position: absolute;
+	color: white;
+	margin-top: 200px;
+	margin-left: 500px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+/***HEADER STYLES***/
+ul > li {
+	display: inline-block;
+	margin-left: 0;
+}
+li {
+	width: 120px;
+	height: 30px;
+	background-color: silver;
+	text-align: center;
+	padding-top: 5px;
+	border-bottom: 1px ridge gray;
+}
+#empty {
+	width: 256px;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	background-color: gray;
+	color: white;
+}
+a:link {
+	text-decoration: none;
+}
+/***ASIDE STYLES***/
+.aside1 {
+	border: 1px solid gray;
+	width: 180px;
+	height: 260px;
+	border-radius: 14px;
+	background-color: silver;
+	margin-left: 660px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.aside1>a:hover {
+	background-color: red;
+}
+.aside2 {
+	border: 1px solid gray;
+	width: 180px;
+	height: 360px;
+	border-radius: 14px;
+	background-color: white;
+	margin-left: 660px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.aside2>a:hover {
+	background-color: red;
+}
+.aside1>a:link,.aside2>a:link {
+	text-decoration: underline;
+}
+/***ARTICLE STYLE***/
+.article1 {
+	border: 1px solid gray;
+	border-radius: 14px;
+	background-color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 570px;
+	height: 230px;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-family: arial;
+
+}
+
+.imgfloat,.imgfloat2,.imgfloat3 {
+	float: left;
+	clear: both;
+	padding-left: 0px;
+	margin-right: 20px;
+}
+.text {
+	width: 540px;
+	height: 150px;
+	margin-left: 0px;
+}
+.article2 {
+	border: 1px solid gray;
+	border-radius: 14px;
+	background-color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 570px;
+	height: 550px;
+	margin-left: 30px;
+	font-family: arial;
+	margin-top: 20px;
+}
+/***MAIN STYLE***/
+main {
+	float: left;
+	clear: both;
+}
+/***FOOTER STYLE***/
+footer {
+	width: 900px;
+	height: 110px;
+	background-color: green;
+	margin-top: 200px;
+	border-top: 3px ridge green;
+}
+.text2 {
+	font-family: arial;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+.text3,.text4 {
+	text-decoration: underline;
+	font-weight: normal;
+}
