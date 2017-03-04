@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentOrNot\bin\Debug\ExcellentOrNot.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentOrNot\bin\Debug\ExcellentOrNot.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentOrNot\bin\Debug\ExcellentOrNot.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentOrNot\obj\Debug\ExcellentOrNot.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentOrNot\obj\Debug\ExcellentOrNot.pdb
