@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\Inches-to-Centimeters\bin\Debug\Inches-to-Centimeters.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\Inches-to-Centimeters\bin\Debug\Inches-to-Centimeters.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\Inches-to-Centimeters\bin\Debug\Inches-to-Centimeters.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\Inches-to-Centimeters\obj\Debug\Inches-to-Centimeters.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\Inches-to-Centimeters\obj\Debug\Inches-to-Centimeters.pdb
