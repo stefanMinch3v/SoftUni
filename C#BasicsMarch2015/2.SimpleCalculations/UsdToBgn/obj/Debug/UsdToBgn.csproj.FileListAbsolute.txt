@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\UsdToBgn\bin\Debug\UsdToBgn.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\UsdToBgn\bin\Debug\UsdToBgn.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\UsdToBgn\bin\Debug\UsdToBgn.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\UsdToBgn\obj\Debug\UsdToBgn.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\UsdToBgn\obj\Debug\UsdToBgn.pdb
