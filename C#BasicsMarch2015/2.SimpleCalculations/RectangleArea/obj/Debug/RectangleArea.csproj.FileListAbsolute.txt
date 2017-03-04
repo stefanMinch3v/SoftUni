@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\RectangleArea\bin\Debug\RectangleArea.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\RectangleArea\bin\Debug\RectangleArea.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\RectangleArea\bin\Debug\RectangleArea.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\RectangleArea\obj\Debug\RectangleArea.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\RectangleArea\obj\Debug\RectangleArea.pdb
