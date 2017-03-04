@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TrapezoidArea\bin\Debug\TrapezoidArea.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TrapezoidArea\bin\Debug\TrapezoidArea.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TrapezoidArea\bin\Debug\TrapezoidArea.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TrapezoidArea\obj\Debug\TrapezoidArea.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TrapezoidArea\obj\Debug\TrapezoidArea.pdb
