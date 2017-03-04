@@ -1,0 +1,6 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\BonusScore\bin\Debug\BonusScore.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\BonusScore\obj\Debug\BonusScore.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\BonusScore\bin\Debug\BonusScore.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\BonusScore\bin\Debug\BonusScore.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\BonusScore\obj\Debug\BonusScore.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\BonusScore\obj\Debug\BonusScore.pdb
