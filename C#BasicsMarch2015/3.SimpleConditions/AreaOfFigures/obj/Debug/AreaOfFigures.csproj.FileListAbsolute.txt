@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\AreaOfFigures\bin\Debug\AreaOfFigures.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\AreaOfFigures\bin\Debug\AreaOfFigures.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\AreaOfFigures\bin\Debug\AreaOfFigures.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\AreaOfFigures\obj\Debug\AreaOfFigures.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\AreaOfFigures\obj\Debug\AreaOfFigures.pdb
