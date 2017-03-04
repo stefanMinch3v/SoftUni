@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CircleAreanAndPerimeter\bin\Debug\CircleAreanAndPerimeter.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CircleAreanAndPerimeter\bin\Debug\CircleAreanAndPerimeter.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CircleAreanAndPerimeter\bin\Debug\CircleAreanAndPerimeter.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CircleAreanAndPerimeter\obj\Debug\CircleAreanAndPerimeter.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\CircleAreanAndPerimeter\obj\Debug\CircleAreanAndPerimeter.pdb
