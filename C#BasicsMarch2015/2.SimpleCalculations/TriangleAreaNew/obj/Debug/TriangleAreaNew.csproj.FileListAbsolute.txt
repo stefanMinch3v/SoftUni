@@ -1,0 +1,6 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TriangleAreaNew\bin\Debug\TriangleAreaNew.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TriangleAreaNew\bin\Debug\TriangleAreaNew.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TriangleAreaNew\bin\Debug\TriangleAreaNew.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TriangleAreaNew\obj\Debug\TriangleAreaNew.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TriangleAreaNew\obj\Debug\TriangleAreaNew.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson2\TriangleAreaNew\obj\Debug\TriangleAreaNew.pdb
