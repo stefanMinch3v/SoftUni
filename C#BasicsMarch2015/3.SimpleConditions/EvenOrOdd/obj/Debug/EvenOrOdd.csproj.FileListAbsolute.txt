@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\EvenOrOdd\bin\Debug\EvenOrOdd.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\EvenOrOdd\bin\Debug\EvenOrOdd.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\EvenOrOdd\bin\Debug\EvenOrOdd.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\EvenOrOdd\obj\Debug\EvenOrOdd.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\EvenOrOdd\obj\Debug\EvenOrOdd.pdb
