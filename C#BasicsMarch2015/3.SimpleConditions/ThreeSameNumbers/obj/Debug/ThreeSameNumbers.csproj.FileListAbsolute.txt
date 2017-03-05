@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ThreeSameNumbers\bin\Debug\ThreeSameNumbers.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ThreeSameNumbers\bin\Debug\ThreeSameNumbers.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ThreeSameNumbers\bin\Debug\ThreeSameNumbers.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ThreeSameNumbers\obj\Debug\ThreeSameNumbers.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ThreeSameNumbers\obj\Debug\ThreeSameNumbers.pdb
