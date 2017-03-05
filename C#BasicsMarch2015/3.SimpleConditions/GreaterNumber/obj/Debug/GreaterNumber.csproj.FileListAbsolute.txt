@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\GreaterNumber\bin\Debug\GreaterNumber.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\GreaterNumber\bin\Debug\GreaterNumber.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\GreaterNumber\bin\Debug\GreaterNumber.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\GreaterNumber\obj\Debug\GreaterNumber.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\GreaterNumber\obj\Debug\GreaterNumber.pdb
