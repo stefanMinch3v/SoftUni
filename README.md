@@ -1,2 +1,2 @@
 # SoftUni
-Exercises/Homework from softuni.bg 
+C# whole course with Exercises/Homework from softuni.bg
