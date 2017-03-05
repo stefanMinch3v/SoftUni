@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheSameWords\bin\Debug\TheSameWords.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheSameWords\bin\Debug\TheSameWords.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheSameWords\bin\Debug\TheSameWords.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheSameWords\obj\Debug\TheSameWords.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheSameWords\obj\Debug\TheSameWords.pdb
