@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\Number0to10\bin\Debug\Number0to10.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\Number0to10\bin\Debug\Number0to10.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\Number0to10\bin\Debug\Number0to10.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\Number0to10\obj\Debug\Number0to10.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\Number0to10\obj\Debug\Number0to10.pdb
