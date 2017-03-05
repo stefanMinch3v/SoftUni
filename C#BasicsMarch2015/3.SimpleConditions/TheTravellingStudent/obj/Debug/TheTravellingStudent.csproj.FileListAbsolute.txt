@@ -1,0 +1,6 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheTravellingStudent\bin\Debug\TheTravellingStudent.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheTravellingStudent\bin\Debug\TheTravellingStudent.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheTravellingStudent\bin\Debug\TheTravellingStudent.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheTravellingStudent\obj\Debug\TheTravellingStudent.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheTravellingStudent\obj\Debug\TheTravellingStudent.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TheTravellingStudent\obj\Debug\TheTravellingStudent.pdb
