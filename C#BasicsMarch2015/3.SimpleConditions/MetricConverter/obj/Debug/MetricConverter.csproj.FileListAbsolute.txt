@@ -1,0 +1,6 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\MetricConverter\bin\Debug\MetricConverter.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\MetricConverter\obj\Debug\MetricConverter.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\MetricConverter\bin\Debug\MetricConverter.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\MetricConverter\bin\Debug\MetricConverter.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\MetricConverter\obj\Debug\MetricConverter.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\MetricConverter\obj\Debug\MetricConverter.pdb
