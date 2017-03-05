@@ -1,0 +1,6 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TimeAdd15min\bin\Debug\TimeAdd15min.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TimeAdd15min\bin\Debug\TimeAdd15min.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TimeAdd15min\bin\Debug\TimeAdd15min.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TimeAdd15min\obj\Debug\TimeAdd15min.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TimeAdd15min\obj\Debug\TimeAdd15min.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\TimeAdd15min\obj\Debug\TimeAdd15min.pdb
