@@ -1,0 +1,6 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\LiceNaFigura\bin\Debug\LiceNaFigura.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\LiceNaFigura\bin\Debug\LiceNaFigura.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\LiceNaFigura\bin\Debug\LiceNaFigura.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\LiceNaFigura\obj\Debug\LiceNaFigura.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\LiceNaFigura\obj\Debug\LiceNaFigura.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\LiceNaFigura\obj\Debug\LiceNaFigura.pdb
