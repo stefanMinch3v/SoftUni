@@ -1,0 +1,6 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentResult\bin\Debug\ExcellentResult.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentResult\bin\Debug\ExcellentResult.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentResult\bin\Debug\ExcellentResult.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentResult\obj\Debug\ExcellentResult.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentResult\obj\Debug\ExcellentResult.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson3\ExcellentResult\obj\Debug\ExcellentResult.pdb
