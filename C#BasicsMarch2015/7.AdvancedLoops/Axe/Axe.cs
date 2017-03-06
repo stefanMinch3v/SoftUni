@@ -10,27 +10,6 @@ namespace Axe
     {
         static void Main(string[] args)
         {
-            /*
-            var a = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= a; i++)
-            {
-                for (int ii = 1; ii <= i; ii++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
-            }*/
-
-            string name = Console.ReadLine();
-            
-            
-            return;
-            /*var n = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < 2 * n; i++)
-            {
-                Console.WriteLine("{0}{1}{0}",new string('-', 2 * n), new string('*', n ), new string('-', 3 * n));
-            }*/
             var n = int.Parse(Console.ReadLine());
             var width = 5 * n;
             var leftDashes = 3 * n;
