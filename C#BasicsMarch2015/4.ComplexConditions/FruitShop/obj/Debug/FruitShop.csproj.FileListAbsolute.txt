@@ -1,0 +1,6 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitShop\bin\Debug\FruitShop.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitShop\bin\Debug\FruitShop.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitShop\bin\Debug\FruitShop.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitShop\obj\Debug\FruitShop.csprojResolveAssemblyReference.cache
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitShop\obj\Debug\FruitShop.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitShop\obj\Debug\FruitShop.pdb

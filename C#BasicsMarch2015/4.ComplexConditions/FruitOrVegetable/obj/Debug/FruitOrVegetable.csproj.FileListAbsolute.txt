@@ -1,0 +1,5 @@
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitOrVegetable\bin\Debug\FruitOrVegetable.exe.config
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitOrVegetable\bin\Debug\FruitOrVegetable.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitOrVegetable\bin\Debug\FruitOrVegetable.pdb
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitOrVegetable\obj\Debug\FruitOrVegetable.exe
+D:\Programming\C# Basics March\My codes\HomeworkLesson4\FruitOrVegetable\obj\Debug\FruitOrVegetable.pdb
