@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers", "Numbers\Numbers.csproj", "{F3783C5B-18EA-4DB4-81C7-C32EF71CD982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniCoffeOrders", "SoftUniCoffeOrders\SoftUniCoffeOrders.csproj", "{62E2F822-9980-43B1-A4C3-5730F588A47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballStandings", "FootballStandings\FootballStandings.csproj", "{8C6CEA3D-6BAE-46E2-B1A0-CA8C88BD6907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3783C5B-18EA-4DB4-81C7-C32EF71CD982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3783C5B-18EA-4DB4-81C7-C32EF71CD982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3783C5B-18EA-4DB4-81C7-C32EF71CD982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3783C5B-18EA-4DB4-81C7-C32EF71CD982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E2F822-9980-43B1-A4C3-5730F588A47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E2F822-9980-43B1-A4C3-5730F588A47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E2F822-9980-43B1-A4C3-5730F588A47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E2F822-9980-43B1-A4C3-5730F588A47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6CEA3D-6BAE-46E2-B1A0-CA8C88BD6907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6CEA3D-6BAE-46E2-B1A0-CA8C88BD6907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6CEA3D-6BAE-46E2-B1A0-CA8C88BD6907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6CEA3D-6BAE-46E2-B1A0-CA8C88BD6907}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
