@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubicsMessages", "CubicsMessages\CubicsMessages.csproj", "{0442DA1C-B23C-4D5E-8030-F8F736FA5058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubicAssault", "CubicAssault\CubicAssault.csproj", "{6B3C45E9-CD30-4A35-945A-17CB8F2A0656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0442DA1C-B23C-4D5E-8030-F8F736FA5058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0442DA1C-B23C-4D5E-8030-F8F736FA5058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0442DA1C-B23C-4D5E-8030-F8F736FA5058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0442DA1C-B23C-4D5E-8030-F8F736FA5058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3C45E9-CD30-4A35-945A-17CB8F2A0656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3C45E9-CD30-4A35-945A-17CB8F2A0656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3C45E9-CD30-4A35-945A-17CB8F2A0656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3C45E9-CD30-4A35-945A-17CB8F2A0656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

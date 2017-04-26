@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrangeIntegers", "ArrangeIntegers\ArrangeIntegers.csproj", "{D946CA4A-78BF-4C9F-9EDB-80388E87BB78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicMark-upLanguage", "BasicMark-upLanguage\BasicMark-upLanguage.csproj", "{DF38558A-E383-43E6-B5FA-36711DBAC37D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampionsLeague", "ChampionsLeague\ChampionsLeague.csproj", "{3F112BD6-6B0D-4949-A827-E41FEC1D4C57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D946CA4A-78BF-4C9F-9EDB-80388E87BB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D946CA4A-78BF-4C9F-9EDB-80388E87BB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D946CA4A-78BF-4C9F-9EDB-80388E87BB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D946CA4A-78BF-4C9F-9EDB-80388E87BB78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF38558A-E383-43E6-B5FA-36711DBAC37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF38558A-E383-43E6-B5FA-36711DBAC37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF38558A-E383-43E6-B5FA-36711DBAC37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF38558A-E383-43E6-B5FA-36711DBAC37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F112BD6-6B0D-4949-A827-E41FEC1D4C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F112BD6-6B0D-4949-A827-E41FEC1D4C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F112BD6-6B0D-4949-A827-E41FEC1D4C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F112BD6-6B0D-4949-A827-E41FEC1D4C57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

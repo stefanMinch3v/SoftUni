@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JediMeditation", "JediMeditation\JediMeditation.csproj", "{0CC896E6-5AB3-4814-988B-D887C79F937C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JediCodeX", "JediCodeX\JediCodeX.csproj", "{CEE682AB-557E-4DE0-8A86-51D1BEF2EF92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CC896E6-5AB3-4814-988B-D887C79F937C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC896E6-5AB3-4814-988B-D887C79F937C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC896E6-5AB3-4814-988B-D887C79F937C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC896E6-5AB3-4814-988B-D887C79F937C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE682AB-557E-4DE0-8A86-51D1BEF2EF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE682AB-557E-4DE0-8A86-51D1BEF2EF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE682AB-557E-4DE0-8A86-51D1BEF2EF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE682AB-557E-4DE0-8A86-51D1BEF2EF92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
