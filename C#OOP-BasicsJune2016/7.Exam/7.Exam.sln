@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kermen", "Kermen\Kermen.csproj", "{D69A6C09-48C3-4F9B-8261-FDBDBC635C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemSplit", "SystemSplit\SystemSplit.csproj", "{409B388E-A27D-4B37-88E6-0EA96C6E239B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PawInc", "PawInc\PawInc.csproj", "{BCCC1BB7-FD97-4044-B34E-2C8A29C48126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D69A6C09-48C3-4F9B-8261-FDBDBC635C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69A6C09-48C3-4F9B-8261-FDBDBC635C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69A6C09-48C3-4F9B-8261-FDBDBC635C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69A6C09-48C3-4F9B-8261-FDBDBC635C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409B388E-A27D-4B37-88E6-0EA96C6E239B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409B388E-A27D-4B37-88E6-0EA96C6E239B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409B388E-A27D-4B37-88E6-0EA96C6E239B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409B388E-A27D-4B37-88E6-0EA96C6E239B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCC1BB7-FD97-4044-B34E-2C8A29C48126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCC1BB7-FD97-4044-B34E-2C8A29C48126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCC1BB7-FD97-4044-B34E-2C8A29C48126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCC1BB7-FD97-4044-B34E-2C8A29C48126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

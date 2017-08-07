@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{409B388E-A27D-4B37-88E6-0EA96C6E239B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SystemSplit</RootNamespace>
+    <AssemblyName>SystemSplit</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Factories\HardwareFactory.cs" />
+    <Compile Include="Factories\SoftwareFactory.cs" />
+    <Compile Include="Interfaces\IDatabase.cs" />
+    <Compile Include="Interfaces\IHardwareCreation.cs" />
+    <Compile Include="Interfaces\ISoftwareCreation.cs" />
+    <Compile Include="IO\CommandInterpreter.cs" />
+    <Compile Include="IO\Commands\Analyze.cs" />
+    <Compile Include="IO\Commands\Command.cs" />
+    <Compile Include="IO\Commands\Destroy.cs" />
+    <Compile Include="IO\Commands\Dump.cs" />
+    <Compile Include="IO\Commands\DumpAnalize.cs" />
+    <Compile Include="IO\Commands\RegisterExpressSoftware.cs" />
+    <Compile Include="IO\Commands\RegisterHardware.cs" />
+    <Compile Include="IO\Commands\RegisterHeavyHardware.cs" />
+    <Compile Include="IO\Commands\RegisterLightSoftware.cs" />
+    <Compile Include="IO\Commands\RegisterPowerHardware.cs" />
+    <Compile Include="Interfaces\IExecutable.cs" />
+    <Compile Include="IO\Commands\RegisterSoftware.cs" />
+    <Compile Include="IO\Commands\ReleaseSoftwareComponent.cs" />
+    <Compile Include="IO\Commands\Restore.cs" />
+    <Compile Include="IO\Commands\SystemSplit.cs" />
+    <Compile Include="PcComponents\Computer.cs" />
+    <Compile Include="PcComponents\Software\ExpressSoftware.cs" />
+    <Compile Include="PcComponents\Hardware\Hardware.cs" />
+    <Compile Include="PcComponents\Hardware\HeavyHardware.cs" />
+    <Compile Include="PcComponents\Software\LightSoftware.cs" />
+    <Compile Include="PcComponents\Hardware\PowerHardware.cs" />
+    <Compile Include="PcComponents\Software\Software.cs" />
+    <Compile Include="Repository\Data.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

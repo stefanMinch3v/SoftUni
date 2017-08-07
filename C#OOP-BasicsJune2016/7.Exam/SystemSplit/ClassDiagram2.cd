@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SystemSplit.Factory.HardwareFactory" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\HardwareFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.Factory.SoftwareFactory" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Factories\SoftwareFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.CommandInterpreter" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>IO\CommandInterpreter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.Analyze" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\Analyze.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.Command" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAQBAAAAAAAAEAAAABAAAAgQAAAIAAA=</HashCode>
+      <FileName>IO\Commands\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.Destroy" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\Destroy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.Dump" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\Dump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.DumpAnalize" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\DumpAnalize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.RegisterExpressSoftware" Collapsed="true">
+    <Position X="21.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>IO\Commands\RegisterExpressSoftware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.RegisterHardware" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\RegisterHardware.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.RegisterHeavyHardware" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\RegisterHeavyHardware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.RegisterLightSoftware" Collapsed="true">
+    <Position X="23.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>IO\Commands\RegisterLightSoftware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.RegisterPowerHardware" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\RegisterPowerHardware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.RegisterSoftware" Collapsed="true">
+    <Position X="22.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>IO\Commands\RegisterSoftware.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.ReleaseSoftwareComponent" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\ReleaseSoftwareComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.Restore" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\Restore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.IO.Commands.SystemSplit" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\Commands\SystemSplit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.Computer" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAQAAgAAAAAA=</HashCode>
+      <FileName>PcComponents\Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.Hardware" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAEAEAAAAFQAAABQAAgAAQAIAAQAAAAIAAAAA=</HashCode>
+      <FileName>PcComponents\Hardware\Hardware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.HeavyHardware" Collapsed="true">
+    <Position X="7.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAAIAAAAA=</HashCode>
+      <FileName>PcComponents\Hardware\HeavyHardware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.PowerHardware" Collapsed="true">
+    <Position X="5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAAIAAAAA=</HashCode>
+      <FileName>PcComponents\Hardware\PowerHardware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.ExpressSoftware" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>PcComponents\Software\ExpressSoftware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.LightSoftware" Collapsed="true">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAABAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>PcComponents\Software\LightSoftware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.Software" Collapsed="true">
+    <Position X="1.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgAAAAABEAAAAAAQAAAAFAACAAQAAAAAAAEA=</HashCode>
+      <FileName>PcComponents\Software\Software.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.Startup" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemSplit.Repository.Data" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABAAEAACAACCgAAAgABAAAAAAAAAAAAgEAA=</HashCode>
+      <FileName>Repository\Data.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="SystemSplit.Interfaces.IDatabase" Collapsed="true">
+    <Position X="26.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAEAACAAACgAAAAABAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Interfaces\IDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SystemSplit.Interfaces.IExecutable" Collapsed="true">
+    <Position X="28" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IExecutable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SystemSplit.Interfaces.IHardwareCreation" Collapsed="true">
+    <Position X="29.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHardwareCreation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SystemSplit.Interfaces.ISoftwareCreation" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\ISoftwareCreation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
