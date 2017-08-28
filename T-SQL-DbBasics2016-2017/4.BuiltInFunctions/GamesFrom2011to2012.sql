@@ -1,0 +1,4 @@
+SELECT TOP(50) Name, CONVERT(nvarchar(10), Start, 126) AS Start
+FROM Games
+WHERE DATEPART(year, Start) BETWEEN 2011 AND 2012
+ORDER BY Start, Name
