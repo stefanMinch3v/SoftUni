@@ -1,0 +1,115 @@
+﻿@using BookLy.Models
+@using BookLy.ViewModels.Comment
+@using Microsoft.AspNet.Identity
+@model Book
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Book</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Author.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Author.UserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Resume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Resume)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pages)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pages)
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+        <dd>
+
+            <img src="@Model.Image" alt="Book Image" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContentSource)
+        </dt>
+        <dd>
+            <iframe src="http://docs.google.com/gview?url=@Model.ContentSource&embedded=true"
+                    class="book-content" frameborder="0"></iframe>
+        </dd>
+
+    </dl>
+    <p>
+        @if (this.Model.AuthorId == this.User.Identity.GetUserId())
+        {
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+        }
+    </p>
+    
+    <div class="evaluate">      
+        <form method="post" action="/Book/Evaluate">
+            @Html.HiddenFor(model => model.Id) 
+
+            <button id="like" name="status" value="like" href="/Book/Evaluate">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+            <label for="like">@this.Model.Upvotes.Count likes</label>
+
+            <button id="dislike" name="status" value="dislike" href="/Book/Evaluate">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+            <label for="dislike">@this.Model.Downvotes.Count dislikes</label>
+        </form>
+    </div>
+    <section class="comments">
+        <div class="row add-comment-form">
+            <div class="pull-right">
+                <div class="col-md-2">
+                    Add Comment
+                </div>
+
+                <div class="col-md-10">
+                    @Html.Partial("~/Views/Partial/Comment/CreateComment.cshtml", new CommentCreateViewModel { BookId = this.Model.Id })
+                </div>
+            </div>
+        </div>
+        @foreach (Comment comment in this.Model.Comments)
+        {
+            <hr />
+            <div class="float-right comment">
+                <p>
+                    @comment.Content
+                </p>
+
+                <div>
+                    @Html.ActionLink(comment.Author.UserName, "Details", "Account", new { id = comment.AuthorId }, htmlAttributes: null)
+                </div>
+            </div>
+        }
+    </section>
+
+</div>

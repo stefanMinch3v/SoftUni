@@ -1,0 +1,15 @@
+﻿@model BookLy.Web.ViewModels.Account.AccountDetailsViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<aside class="profile col-xs-3 col-sm-offset-1">
+    <img class="img-responsive" src="@this.Model.ImageUrl" alt="@this.Model.UserName profile picture" />
+    <h3>@this.Model.FirstName @this.Model.LastName</h3>
+    <p class="profile-username">@this.Model.UserName</p>
+</aside>
+
+<div class="row"></div>

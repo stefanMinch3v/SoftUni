@@ -1,0 +1,59 @@
+﻿<Window x:Class="RelicFinderWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RelicFinderWPF"
+        xmlns:data="clr-namespace:RelicFinderWPF.Models"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+    <!--Window.Resources>
+        <DataTemplate DataType="{x:Type data:Relic}">
+            <TextBlock Text="{Binding Name}"/>
+        </DataTemplate>
+    </-->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="23"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListView x:Name="RelicList" ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Type" DisplayMemberBinding="{Binding Type}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="1" Margin="15">
+            <Label Content="Name:" Target="{Binding ElementName=NameBox}" Padding="0" Margin="0"/>
+            <TextBox x:Name="NameBox" Text="{Binding Name, Mode=TwoWay}"  Margin=" 5, 10" />
+            
+            <Label Content="Type:" Target="{Binding ElementName=TypeBox}" Padding="0" Margin="0"/>
+            <TextBox x:Name="TypeBox" Text="{Binding Type, Mode=TwoWay}"  Margin=" 5, 10"/>
+            
+            <Label Content="Description:" Target="{Binding ElementName=DescriptionBox}" Padding="0" Margin="0"/>
+            <TextBox x:Name="DescriptionBox" Text="{Binding Description, Mode=TwoWay}"  Margin=" 5, 10" Height="40" TextWrapping="Wrap"/>
+        </StackPanel>
+
+        <Button Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="0" Content="Save Changes"/>
+
+        <StatusBar Grid.ColumnSpan="2" Grid.Row="1">
+            <StatusBarItem>
+                <TextBlock Text="Status: OK"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <Button Content="Check value"/>
+            </StatusBarItem>
+        </StatusBar>
+
+    </Grid>
+</Window>

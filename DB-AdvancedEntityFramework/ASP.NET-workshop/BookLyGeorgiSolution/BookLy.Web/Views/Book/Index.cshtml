@@ -1,0 +1,34 @@
+﻿@using BookLy.Models
+@using Microsoft.AspNet.Identity
+@model IEnumerable<Book>
+
+@{
+    ViewBag.Title = "Index";
+}
+<br />
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@foreach (Book book in Model)
+{
+    <div class="row media">
+        <a href="/Book/Details/@book.Id">
+            <img class="col-md-4 img-responsive" src="@book.Image" alt="@book.Name Image" />
+        </a>
+
+        <div class="col-md-8">
+            <h3>@book.Name</h3>
+            <p>@book.Resume</p>
+
+            @if (this.User.Identity.GetUserId() == book.AuthorId)
+            {
+                <div class="pull-right">
+                    @Html.ActionLink("Edit", "Edit", new { id = book.Id }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Delete", "Delete", new { id = book.Id }, new { @class = "btn btn-danger" })
+                </div>
+            }
+        </div>
+    </div>
+    <hr />
+}

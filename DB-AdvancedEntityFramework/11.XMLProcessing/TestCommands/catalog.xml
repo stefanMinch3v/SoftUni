@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albums>
+	<album name="Radiohead"/>
+    <album artist="The King of Limbs"/>
+	<album year="2012-10-10"/>
+	<album producer="Morning Mr Magpie"/>
+	<album price="55.55"/>
+	<songs>
+      <song title="Lotus Flower" duration="5:01"/>
+      <song title="Codex" duration="4:47"/>
+      <song title="Give Up the Ghost" duration="4:50"/>
+      <song title="Separator" duration="5:20"/>
+	</songs>
+	<album name="OK Computer"/>
+    <album artist="Airbag"/>
+	<album year="2011-10-10"/>
+	<album producer="Karma Police"/>
+	<album price="44.55"/>
+	<songs>
+      <song title="Fitter Happier" duration="3:01"/>
+      <song title="Electioneering" duration="2:47"/>
+      <song title="Climbing Ghost" duration="1:50"/>
+      <song title="Lucky" duration="5:20"/>
+	</songs>
+	<album name="Portishead"/>
+    <album artist="Mysterons"/>
+	<album year="1994-10-08"/>
+	<album producer="Strangers"/>
+	<album price="551.55"/>
+	<songs>
+      <song title="Wandering Star" duration="4:04"/>
+      <song title="Numb" duration="3:43"/>
+      <song title="Roads" duration="2:55"/>
+      <song title="Pedestal" duration="5:33"/>
+	</songs>
+	<album name="Third"/>
+    <album artist="Magic Doors"/>
+	<album year="2002-10-10"/>
+	<album producer="Hunter"/>
+	<album price="55.55"/>
+	<songs>
+      <song title="Deep Water" duration="2:07"/>
+      <song title="Plastic" duration="6:37"/>
+      <song title="We Carry On" duration="3:22"/>
+      <song title="Machine Gun" duration="1:57"/>
+	</songs>
+</albums>

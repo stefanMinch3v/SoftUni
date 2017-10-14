@@ -1,0 +1,23 @@
+﻿@using BookLy.Models
+@model IEnumerable<BookLy.Models.Book>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+
+    @foreach (Book book in this.Model)
+    {
+        <section class="books-section">
+            <div class="col-md-4">
+                <img class="img-responsive" src="@book.Image" alt="@book.Name" />
+                <h2>@book.Name</h2>
+                <p>
+                    @book.Resume
+                </p>
+
+                @Html.ActionLink("Read more>", "Details", "Book", routeValues: new { id = book.Id }, htmlAttributes: null)
+            </div>
+        </section>
+    }
+</div>

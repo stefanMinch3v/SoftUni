@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLocatorPattern", "ServiceLocatorPattern\ServiceLocatorPattern.csproj", "{3E8BD74F-5436-451F-BAE8-C4DE4CF5FF77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{84258F1F-595B-483C-813B-F5B32579F0B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E8BD74F-5436-451F-BAE8-C4DE4CF5FF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8BD74F-5436-451F-BAE8-C4DE4CF5FF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8BD74F-5436-451F-BAE8-C4DE4CF5FF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8BD74F-5436-451F-BAE8-C4DE4CF5FF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84258F1F-595B-483C-813B-F5B32579F0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84258F1F-595B-483C-813B-F5B32579F0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84258F1F-595B-483C-813B-F5B32579F0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84258F1F-595B-483C-813B-F5B32579F0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C6DCFF9-8DCB-487E-AE82-ED418680EB7D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+﻿@using BookLy.Models
+@model BookLy.ViewModels.Account.AccountDetailsViewModel
+
+@{
+    ViewBag.Title = "User Details";
+}                                  
+     
+<div class="profile">
+    <aside class="col-md-offset-1 col-md-3">
+        <ul class="list-unstyled">
+            <li><img class="img-responsive profile-image" src="@this.Model.ProfilePictureBase64Url" alt="Profile Picture" /></li>
+            <li>
+                <h3>@this.Model.FirstName @this.Model.LastName</h3>
+            </li>
+            <li>
+                <h6 id="username">@this.Model.UserName</h6>
+            </li>
+            @*<li>
+                <h5>Age: <span>@this.Model.Age</span></h5>
+            </li>
+            <li>
+                <h5>Gender: <span>@this.Model.Gender</span></h5>
+            </li>*@
+        </ul>
+    </aside>
+    
+    <section class="books col-md-8">
+        <h2>Books:</h2>
+        @foreach (Book book in this.Model.Books)
+        {
+            <div class="book col-md-4">
+                <img class="img-responsive" src="@book.Image" alt="@book.Name Image" />
+                <a href="/Book/Details/@book.Id"><h4>@book.Name</h4></a>
+            </div>
+        }
+
+    </section>
+</div>
+
+
+<div class="row"></div>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+	<name>Ivan Ivanov</name>
+	<gender>Male</gender>
+	<birthDate>1999/12/23</birthDate>
+	<phoneNumber>0000000000</phoneNumber>
+	<email>ivan.ivanov@abb.bg</email>
+	<university>Software University</university>
+	<speciality>C# Web Developer</speciality>
+	<facultyNumber>12345671234</facultyNumber>
+	<exams>
+		<exam>
+			<name>Programming Basics</name>
+			<dateTaken>2017/01/01</dateTaken>
+			<grade>6.0</grade>
+		</exam>
+	</exams>
+</student>
+<student>
+	<name>Petar Petrov</name>
+	<gender>Male</gender>
+	<birthDate>1989/12/23</birthDate>
+	<phoneNumber>00000110000</phoneNumber>
+	<email>pesho.petrov@abb.bg</email>
+	<university>Software University</university>
+	<speciality>Java Web Developer</speciality>
+	<facultyNumber>39345111111</facultyNumber>
+	<exams>
+		<exam>
+			<name>Programming Basics</name>
+			<dateTaken>2017/01/01</dateTaken>
+			<grade>5.0</grade>
+		</exam>
+	</exams>
+</student>
+<student>
+	<name>Gosho Todorov</name>
+	<gender>Male</gender>
+	<birthDate>1994/11/23</birthDate>
+	<phoneNumber>1100000000</phoneNumber>
+	<email>gogata_@abb.bg</email>
+	<university>Software University</university>
+	<speciality>JavaScript Developer</speciality>
+	<facultyNumber>123452356234</facultyNumber>
+	<exams>
+		<exam>
+			<name>Programming Basics</name>
+			<dateTaken>2017/01/01</dateTaken>
+			<grade>5.60</grade>
+		</exam>
+	</exams>
+</student>
