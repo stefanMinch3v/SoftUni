@@ -1,0 +1,56 @@
+﻿@model IEnumerable<SupplierBasicModel>
+
+@{
+    ViewData["Title"] = "All suppliers";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="row">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                   Name
+                </th>
+                <th>
+                   Importer
+                </th>
+                <th>
+                </th>
+                <th>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var supplier in Model)
+            {
+                <tr>
+                    <td>
+                        @supplier.Name
+                    </td>
+                    <td>
+                        @if (supplier.IsImporter)
+                        {
+                            <p>Yes</p>
+                        }
+                        else
+                        {
+                            <p>No</p>
+                        }
+                    </td>
+                    <td>
+                        <div class="text-center">
+                            <a href="/suppliers/edit/@supplier.Id" class="btn btn-warning">Edit</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="text-center">
+                            <a href="/suppliers/delete/@supplier.Id" class="btn btn-danger">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            }  
+        </tbody>
+    </table>
+</div>

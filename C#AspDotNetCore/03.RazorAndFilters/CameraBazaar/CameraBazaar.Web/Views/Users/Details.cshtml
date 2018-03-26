@@ -1,0 +1,96 @@
+﻿@model UserDetailsModel
+
+@{
+    ViewData["Title"] = "User details";
+    Layout = "~/Views/Shared/_LayoutNavBarLeft.cshtml";
+}
+
+<h2 class="text-success">@TempData["SuccessMessage"]</h2>
+
+<div class="container-fluid">
+    <div class="form-group">
+        <b>Username: </b>@Model.Username
+        @if (Model.IsOwner)
+        {
+            <a href='/users/Edit' class='btn btn-primary'>Edit Profile</a>
+            <b>Last login: </b>@Html.Partial("_LastLoginTime", Model.LastLoginTime)
+        }
+    </div>
+    <div class="form-group">
+        <b>Email: </b>@Model.Email
+    </div>
+    <div class="form-group">
+        <b>Phone: </b>@Model.Phone
+    </div>
+    <div class="form-group">
+        <b>Cameras: </b><span>@Model.InStock() in stock / @Model.OutOfStock() out of stock</span>
+    </div>
+    <div class="form-group">
+        <h4 id="user-camera-details">@(nameof(Model.Cameras)):</h4>
+        @if (!Model.Cameras.Any())
+        {
+            <p>The user is not selling any cameras. Go to <a href="/home/index" class="text-primary">home page</a> to find more offers of other users.</p>
+        }
+        else
+        {
+            @foreach (var camera in Model.Cameras)
+            {
+                <div class="row border col-md-11" >
+                    <div class="col-md-2">
+                        <img class="img-responsive all-cameras" src="@camera.ImageUrl" />
+                    </div>
+                    <div class="col-md-10">
+                        <table class="table table-striped">
+                            <tr>
+                                <td>
+                                     @camera.Make
+                                </td>
+                                <td>
+                                    @camera.Model
+                                </td>
+                                <td>
+                                    @camera.Price.ToPrice()
+                                </td>
+                                @if (Model.Username == this.User.Identity.Name)
+                                {
+                                    <td>
+                                        <a asp-controller="Cameras" asp-action="@(nameof(CamerasController.Edit))" asp-route-id="@camera.Id" class="btn btn-primary btn-group-lg form-btn">Edit</a>
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td></td>
+                                }
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/cameras/Details/@camera.Id">Details</a>
+                                </td>
+                                <td></td>
+                                @if (camera.Quantity > 0)
+                                {
+                                    <td>
+                                        <h4 class="text-success">IN STOCK</h4>
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td>
+                                        <h4 class="text-danger">OUT OF STOCK</h4>
+                                    </td>
+                                }
+                                @if (Model.Username == this.User.Identity.Name)
+                                {
+                                    <td>
+                                        <a asp-controller="Cameras" asp-action="@nameof(CamerasController.Delete)" asp-route-id="@camera.Id" class="btn btn-danger btn-group-lg form-btn">Delete</a>
+                                    </td>
+                                }
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+

@@ -1,0 +1,29 @@
+﻿@model FilteredSuppliersModel
+
+@{
+    ViewData["Title"] = $"{Model.Type} suppliers";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Type suppliers</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Number of parts</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var supplier in Model.Suppliers)
+        {
+            <tr>
+                <td>@supplier.Id</td>
+                <td>@supplier.Name</td>
+                <td>@supplier.NumberOfParts</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,43 @@
+﻿@model CameraDetailsModel
+
+@{
+    var splittedLightMetering = Model.LightMetering.ToString().Split(", ");
+}
+
+<div class="row">
+    <div class="form-group">
+        <img src="@Model.ImageUrl" class="img-responsive details" />
+    </div>
+    <div class="form-group">
+        <b>Is Full Frame: </b>@(Model.IsFullFrame ? "Yes" : "No")
+    </div>
+    <div class="form-group">
+        <b>Min Shutter Speed: </b>@Model.MinShutterSpeed&#34
+    </div>
+    <div class="form-group">
+        <b>Max Shutter Speed: </b>@Model.MaxShutterSpeed/8000
+    </div>
+    <div class="form-group">
+        <b>Min ISO: </b>@((int)Model.MinISO)
+    </div>
+    <div class="form-group">
+        <b>Max ISO: </b>@Model.MaxISO
+    </div>
+    <div class="form-group">
+        <b>Video Resolution: </b>@Model.VideoResolution
+    </div>
+    <div class="form-group">
+        <b>Light Metering: </b>
+        <ul>
+            @foreach (var metering in splittedLightMetering)
+            {
+                <li class="list-unstyled">
+                    <p>-&emsp;@metering.ToLightMetering()</p>
+                </li>
+            }
+        </ul>
+    </div>
+    <div>
+        <b>Description: </b>@Model.Description
+    </div>
+</div>

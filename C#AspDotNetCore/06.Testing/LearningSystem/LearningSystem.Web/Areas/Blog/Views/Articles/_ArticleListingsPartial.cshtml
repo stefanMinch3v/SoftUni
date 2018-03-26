@@ -1,0 +1,14 @@
+﻿@model IEnumerable<BlogListingServiceModel>
+
+<ul class="list-group article-list">
+    @foreach (var article in Model)
+            {
+        <li class="list-group-item">
+            <a asp-action="Details" asp-route-id="@article.Id" asp-route-title="@article.Title.ToFriendlyUrl()">
+                @article.Title
+            </a>
+            <br />
+            <small>published by @article.Author on @article.PublishDate.ToLocalTime()</small>
+        </li>
+    }
+</ul>

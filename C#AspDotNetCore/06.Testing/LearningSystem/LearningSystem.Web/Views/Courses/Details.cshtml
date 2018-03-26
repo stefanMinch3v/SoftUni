@@ -1,0 +1,66 @@
+﻿@model CourseDetailsViewModel
+
+@{
+    ViewData["Title"] = $"{Model.Course.Name} Course";
+}
+
+<h2>
+    @ViewData["Title"] - <span class="text-info">Enrolled students: @Model.Course.Students</span>
+</h2>
+<hr />
+
+<h3>@Model.Course.Trainer</h3>
+
+<h4>Start date: @Model.Course.StartDate.ToLocalTime() - End date: @Model.Course.EndDate.ToLocalTime()</h4>
+
+<h4>
+    @Model.Course.Description
+</h4>
+@if (User.Identity.IsAuthenticated)
+{
+    if (Model.UserIsEnrolledInCourse 
+        && Model.Course.EndDate.Date == DateTime.UtcNow.AddDays(1).Date)
+    {
+        <form asp-action="SubmitExam" asp-route-id="@Model.Course.Id" method="post" enctype="multipart/form-data">
+            Upload your exam (zip file only): @*enctype is to put borders between the files in the content *@
+            <input type="file" name="exam" style="display: none" accept=".zip"/>
+            <br />
+            <button type="button" class="btn btn-default" onclick="document.getElementsByName('exam')[0].click()">Choose File</button> @*this doesnt work in safari browser, make a research to fix it if use safari*@
+            <br />
+            <br />
+            <input type="submit" value="Upload Exam" class="btn btn-primary"/>
+        </form>
+    }
+
+    if (Model.Course.StartDate > DateTime.UtcNow)
+    {
+        if (!Model.UserIsEnrolledInCourse)
+        {
+            <form asp-action="SignUp" asp-route-id="@Model.Course.Id" method="post">
+                <input type="submit" value="Sign Up" class="btn btn-success" />
+            </form>
+        }
+        else
+        {
+            <form asp-action="SignOut" asp-route-id="@Model.Course.Id" method="post">
+                <input type="submit" value="Sign Out" class="btn btn-warning" />
+            </form>
+        }
+    }
+    else
+    {
+        if (Model.Course.EndDate < DateTime.UtcNow)
+        {
+            <span class="text-danger">This course has already expired.</span>
+        }
+        else
+        {
+            <span class="text-danger">This course has already started.</span>
+        }
+
+    }
+}
+else
+{
+    <span>In order to enroll, please <a asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Context.Request.Path">Login</a> to the system</span>
+}

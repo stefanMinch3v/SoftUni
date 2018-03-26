@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CourseListingServiceModel>
+
+@{
+    ViewData["Title"] = "Courses";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="row">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Start date</th>
+                <th>End date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count() > 0)
+            {
+                @foreach (var course in Model)
+                {
+                    <tr>
+                        <td>
+                            @course.Name
+                        </td>
+                        <td>
+                            @course.StartDate.ToShortDateString()
+                        </td>
+                        <td>
+                            @course.EndDate.ToShortDateString()
+                        </td>
+                        <td>
+                            <a asp-action="Students" asp-route-id="@course.Id" class="btn btn-primary">Students</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td class="text-danger">
+                        Don't have any courses yet.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,4 @@
+﻿@model DateTime?
+
+@(!Model.HasValue ? "First log in" : Model.Value.ToLocalTime().ToString())
+

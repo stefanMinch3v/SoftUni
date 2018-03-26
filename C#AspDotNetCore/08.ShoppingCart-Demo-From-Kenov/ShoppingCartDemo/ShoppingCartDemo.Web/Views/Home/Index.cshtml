@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var product in Model)
+{
+    <p>
+        @product.Title - @product.Price
+        <a class="btn btn-primary" asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@product.Id">Add to cart</a>
+    </p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+}

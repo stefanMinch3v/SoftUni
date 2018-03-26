@@ -1,0 +1,15 @@
+﻿@model CameraDetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container-fluid">
+    <div class="form-group">
+        @($"{Model.Make.ToString()} {Model.Model} - {Model.Price.ToPrice()} - ")@Html.Raw(Model.Quantity > 0 ? "<span class='text-success'>IN STOCK</span>" : "<span class='text-danger'>OUT OF STOCK</span>")
+    </div>
+    <div class="form-group">
+        <b>User: </b><a href="/users/details/@Model.Username">@Model.Username</a> 
+    </div>
+    @Html.Partial("_CameraDetails", Model)
+</div>

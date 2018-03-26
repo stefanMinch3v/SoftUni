@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ListUserRolesModel>
+
+@{
+    ViewData["Title"] = "All Users";
+}
+
+<h1 class="text text-danger">@this.TempData["ErrorMessage"]</h1>
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                Username
+            </th>
+            <th>
+                Restricted to add new cameras
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>
+                    @user.Username
+                </td>
+                <td>
+                    @if (user.Role == GlobalConstants.RestrictedRole)
+                    {
+                        <p>Yes</p>
+                    }
+                    else
+                    {
+                        <p>No</p>
+                    }
+                </td>
+                <td>
+                    <a href="/Users/Unrestrict/@user.Username" class="btn btn-primary">Unrestrict</a>
+                    <a href="/Users/Restrict/@user.Username" class="btn btn-danger">Restrict</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

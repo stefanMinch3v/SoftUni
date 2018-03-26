@@ -1,0 +1,10 @@
+﻿@model CatTestModel
+
+<h2>Index</h2>
+<form method="post">
+    <input asp-for="Id" placeholder="id" /> <span class="text-danger" asp-validation-for="Id"></span><!--asp for - is to save your already filled in information -->
+    <br />
+    <input asp-for="Name" placeholder="Name" /> <span class="text-danger" asp-validation-for="Name"></span>
+    <br />
+    <input type="submit" value="Send" />
+</form>

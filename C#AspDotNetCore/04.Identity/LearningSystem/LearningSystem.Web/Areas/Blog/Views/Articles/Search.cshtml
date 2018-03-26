@@ -1,0 +1,24 @@
+﻿@model IEnumerable<BlogListingServiceModel>
+
+@{
+    ViewData["Title"] = TempData[TempDataSearchMessageKey] != null ? Html.Raw($"Search for keyword <b>{TempData["SearchText"]}</b>") : null;
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Model.Any())
+{
+    <h3>Found articles</h3>
+
+    <div class="row">
+        <div class="col-md-6">
+            @await Html.PartialAsync("_ArticleListingsPartial.cshtml", Model)
+        </div>
+    </div>
+}
+else
+{
+    <h3>No articles to show.</h3>
+}
+
+

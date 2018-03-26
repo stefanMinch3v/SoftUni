@@ -1,0 +1,62 @@
+﻿@model StudentsInCourseViewModel
+
+@{
+    ViewData["Title"] = $"Students in {Model.Course.Name}";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="row">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Grade</th>
+                <th>Exam submission zip file</th>
+                <th>Assess students</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model.Students)
+            {
+                <tr>
+                    <td>
+                        @student.Username
+                    </td>
+                    <td>
+                        @student.Email
+                    </td>
+                    <td>
+                        @(student.Grade == null ? "No grade" : student.Grade.Value.ToString())
+                    </td>
+                    @if (Model.Course.EndDate < DateTime.UtcNow)
+                    {
+                        <td>
+                            <a asp-action="DownloadExam" asp-route-id="@Model.Course.Id" asp-route-studentid="@student.Id" class="btn btn-success">Download</a>
+                        </td>
+                        <td>
+                            <form asp-action="GradeStudent" asp-route-id="@Model.Course.Id" method="post">
+                                <div class="col-md-6">
+                                    <input type="hidden" name="studentId" value="@student.Id" />
+                                    <select name="grade" asp-items="@Html.GetEnumSelectList<Grade>()" class="form-control"></select>
+                                </div>
+                                <input type="submit" class="btn btn-success" value="Add Grade" />
+                            </form>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <span class="text-danger">None</span>
+                        </td>
+                        <td>
+                            <span class="text-danger">This course is still ongoing.</span>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+</div>

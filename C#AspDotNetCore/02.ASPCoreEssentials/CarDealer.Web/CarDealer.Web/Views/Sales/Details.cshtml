@@ -1,0 +1,53 @@
+﻿@model SaleDetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                Customer
+            </th>
+            <th>
+                Discount
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Discounted Price
+            </th>
+            <th>
+                Car
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Model.CustomerName
+            </td>
+            <td>
+                @($"{Model.Discount.ToPercentage()} (+{(Model.IsYoungDriver ? 5 : 0)})")
+            </td>
+            <td>
+                @Model.Price.Value.ToPrice()
+            </td>
+            <td>
+                @Model.DiscountedPrice.ToPrice()
+            </td>
+            <td>
+                <ul>
+                    <li>@Model.Car.Make</li>
+                    <li>@Model.Car.Model</li>
+                    <li>@(Model.Car.TravelledDistance / 1000) KM</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
