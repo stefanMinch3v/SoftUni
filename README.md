@@ -1,2 +1,2 @@
-# SoftUni
-C# whole course with Exercises/Homework from softuni.bg
+# @SoftUni
+C# courses from softuni.bg (self/study)
