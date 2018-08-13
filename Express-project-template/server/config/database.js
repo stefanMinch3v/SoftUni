@@ -3,7 +3,7 @@ const User = require('../data/User');
 
 // mongoose.Promise = global.Promise; not needed anymore due to the new updates
 module.exports = (settings) => {
-    mongoose.connect(settings.db);
+    mongoose.connect(settings.db, { useNewUrlParser: true });
     let db = mongoose.connection;
 
     db.once('open', (err) => {

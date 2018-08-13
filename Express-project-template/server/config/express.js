@@ -1,7 +1,7 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-const session = require('session');
+const session = require('express-session');
 const passport = require('passport');
 const handlebars = require('express-handlebars');
 const tempData = require('tempData'); // acts exactly as the ASP.net TempData and can be useful when response redirect is invoked
@@ -16,7 +16,7 @@ module.exports = (app) => {
 
     // cookie and body parser configs
     app.use(cookieParser());
-    app.user(bodyParser.urlencoded({ extended: true }));
+    app.use(bodyParser.urlencoded({ extended: true }));
 
     // session configs
     app.use(session({
