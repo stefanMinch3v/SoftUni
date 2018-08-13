@@ -4,9 +4,9 @@ module.exports = {
     index: (req, res) => {
         const successMsg = req.tempData.get(constants.SUCCESS_MESSAGE);
         const errorMsg = req.tempData.get(constants.ERROR_MESSAGE);
-        res.render('home/index', { successMsg, errorMsg });
+        return res.render('home/index', { successMsg, errorMsg });
     },
     about: (req, res) => {
-        res.render('home/about');
+        return res.render('home/about');
     }
 };
