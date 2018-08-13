@@ -35,8 +35,10 @@ module.exports = (app) => {
     // this middleware executes between every req/res 
     app.use((req, res, next) => {
         if (req.user) {
-            res.locals.currentUser = req.user;
-            // add field isAdmin that checks for Admin role (isAdmin: req.user.roles.indexOf('Admin') != -1)
+            res.locals.currentUser = {
+                username: req.user.username,
+                isAdmin: req.user.roles.indexOf('Admin') != -1
+            };
         }
     
         next();
