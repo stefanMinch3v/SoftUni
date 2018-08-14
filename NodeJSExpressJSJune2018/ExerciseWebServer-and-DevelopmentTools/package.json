@@ -1,0 +1,13 @@
+{
+  "name": "ExerciseWebServer-and-DevelopmentTools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engine": "8.5.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "SM",
+  "license": "MIT"
+}

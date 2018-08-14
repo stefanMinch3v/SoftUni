@@ -1,0 +1,5 @@
+parserOptions: 
+  ecmaVersion: 6
+rules:
+  semi: 2
+  no-unused-vars: warn

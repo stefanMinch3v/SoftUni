@@ -1,0 +1,19 @@
+{
+  "name": "MemeDB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "fs-extra": "^7.0.0",
+    "mv": "^2.1.1",
+    "nodemon": "^1.18.3",
+    "shortid": "^2.2.12"
+  }
+}

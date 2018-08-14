@@ -1,0 +1,20 @@
+<div class="order">
+    <form method="POST">
+        {{#if username}}
+            <span class="order-username">user: {{username}}</span>
+        {{/if}}
+            <span class="order-time">{{dateOfCreation}}</span>
+            <span class="order-name">{{category}} doner, {{size}}cm</span>
+            <span class="order-status">{{status}}</span>
+        {{#if isAdmin}}
+            <select name="statusAndId" selected="Pending">
+                <option selected="selected" value="Pending-{{id}}" selected>Pending</option>
+                <option value="In progress-{{id}}">In Progress</option>
+                <option value="In transit-{{id}}">In Transit</option>
+                <option value="Delivered-{{id}}">Delivered</option>
+            </select>
+            <input type="submit" value="Save" class="button" style="width: 4em"> 
+        {{/if}}
+        <a href="/orders/details/{{id}}" class="button order-button">Details</a>
+    </form>
+</div>

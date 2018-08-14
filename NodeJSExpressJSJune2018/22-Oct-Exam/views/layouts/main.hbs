@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Doner Place</title>
+  <link href="/css/site.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <span class="logo">Doner  Place</span>
+  <div class="container">
+    <ul class="menu">
+      <li><a class="button" href="/">Home</a></li>
+      {{#if currentUser}}
+        <span class="greeting">Welcome, {{currentUser.username}}</span>
+        <li><a class="button" href="/orders/status">Orders Status</a></li>
+        <li><a class="button" href="/users/logout">Logout</a></li>
+        {{#if currentUser.isAdmin}}
+          <li><a class="button" href="/orders/admins-status">All Orders</a></li>
+          <li><a class="button" href="/products/create">Create Product</a></li>
+        {{/if}}
+      {{else}}
+        <li><a class="button" href="/users/register">Register</a></li>
+        <li><a class="button" href="/users/login">Login</a></li>
+      {{/if}}
+    </ul>
+    <section>
+        {{#if globalError}}
+          <h3 class="error">{{globalError}}</h3>
+        {{/if}}
+        {{#if errorMsg}}
+            <h3 class="error">{{errorMsg}}</h3>
+        {{/if}}
+        {{#if successMsg}}
+            <h3 class="success">{{successMsg}}</h3>
+        {{/if}}
+    </section>
+    <main>
+      <div class="container">
+        {{{body}}}
+      </div>
+    </main>
+    <footer>Doner Place &copy; 2018</footer>
+  </div>
+</body>
+</html>

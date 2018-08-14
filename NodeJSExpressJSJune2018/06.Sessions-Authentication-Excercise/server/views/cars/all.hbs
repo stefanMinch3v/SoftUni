@@ -1,0 +1,38 @@
+<h1>Cars</h1>
+<form action="/cars/all" method="GET">
+    <input type="text" name="search" placeholder="Search car"/>
+    <input type="submit" value="Search" />
+</form>
+<div class="cars-container">
+    {{#each allCars}}
+        <div class="car-container">
+            <section>
+                <a href="/cars/details/{{_id}}">
+                    <img src="{{imageUrl}}" alt='car-image' />
+                </a>
+            </section>
+            <section class="info">
+                <strong>{{make}} - {{model}}</strong>
+                <span class="rented">Available:
+                    {{#if isRented}}
+                        <strong>No</strong>
+                    {{else}}
+                        <strong>Yes</strong>
+                    {{/if}}
+                </span>
+            </section>
+        </div>
+        {{else}}
+            <h3>No more cars!</h3>
+    {{/each}}
+</div>
+<div>
+    <span class="pages">Pages:</span>
+    {{#if hasPrevPage}}
+        <a href="/cars/all?page={{prevPage}}&search={{search}}">&lt;&lt;</a>
+        &nbsp;&nbsp;&nbsp;
+    {{/if}}
+    {{#if hasNextPage}}
+        <a href="/cars/all?page={{nextPage}}&search={{search}}">&gt;&gt;</a>
+    {{/if}}
+</div>

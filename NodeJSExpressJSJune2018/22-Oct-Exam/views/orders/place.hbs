@@ -1,0 +1,21 @@
+<h1>Customize your order</h1>
+<div class="catalog">
+    <div class="column">
+        <img src="../../{{imageUrl}}">
+    </div>
+    <form id="order-form" method="POST" action="/orders/place">
+        <div class="column">
+            <input type="hidden" name="productId" value="{{id}}" />
+            <h2>{{category}} doner, {{size}}cm</h2>
+            <h3>Toppings</h3>
+            {{#each toppings}}
+                <div class="toppings">
+                    <input name="toppings" type="checkbox" value="{{this}}" checked><label for="toppings">{{this}}</label><br>
+                </div>
+                {{else}}
+                    <p>No toppings available with this product</p>
+            {{/each}}
+            <a class="button" href="javascript:document.getElementById('order-form').submit()">Checkout</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Book library</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+</head>
+
+<body>
+    <header class="menu">
+        <a href="/" class="logo">
+            <img class="logo" src="../static/images/expressjs-card.png" alt="expressLogo">
+        </a>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/all">View All Books</a>
+            </li>
+            <li>
+                <a href="/add">Add Book</a>
+            </li>
+        </ul>
+    </header>
+    {{#if successMsg}}
+        <div id="succssesBox">
+            <h2 id="succssesMsg">{{successMsg}}</h2>
+        </div>
+    {{/if}}
+    <div class="container">
+        {{{body}}}
+    </div>
+
+    <footer>
+        Copyright 2018 book library
+    </footer>
+</body>
+
+</html>
