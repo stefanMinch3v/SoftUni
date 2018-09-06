@@ -1,0 +1,29 @@
+<h1>Owners</h1>
+<button *ngIf="showCarsBtn" (click)="getAllWithCars()">Load cars' names in the table</button>
+<div class="col-md-12">
+    <table *ngIf="owners.length > 0" class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+                <th>Cars</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let owner of owners">
+            <tr>
+                <td>
+                    {{owner.firstName}}
+                    <a href="owners/{{owner.id}}">Details</a> 
+                </td>
+                <td>{{owner.lastName}}</td>
+                <td>{{owner.age}}</td>
+                <td *ngFor="let car of owner.cars" class="d-table-row">
+                    <ul>
+                        <li>{{car.make}}-{{car.model}}</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

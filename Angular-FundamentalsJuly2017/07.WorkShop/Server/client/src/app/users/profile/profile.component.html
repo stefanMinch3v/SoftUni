@@ -1,0 +1,13 @@
+<h2>User profile's cars</h2>
+<div class="col-md-6">
+    <div *ngIf="userCars.length > 0">
+        <div *ngFor="let car of userCars">
+            <p>
+                {{car.make}} {{car.model}} - 
+                <a routerLink="/cars/details/{{car.id}}" class="btn btn-primary">Car details</a> |
+                <button (click)="delete(car.id)" class="btn btn-danger">Delete car</button>
+            </p>   
+        </div>
+    </div>
+    <p *ngIf="userCars.length == 0">This user dont have any cars yet.</p>
+</div>

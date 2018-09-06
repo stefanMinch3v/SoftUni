@@ -1,0 +1,10 @@
+<h1>Car id component page</h1>
+<h4>{{car.make}} - {{car.model}}</h4>
+<h4>Date: {{car.dateOfCreation}}</h4>
+<img src="{{car.imageUrl}}" alt="">
+<h4>Comments:</h4>
+<div *ngIf="car.comments">
+    <ul *ngFor="let comment of car.comments">
+        <li>{{comment}}</li>
+    </ul>
+</div>

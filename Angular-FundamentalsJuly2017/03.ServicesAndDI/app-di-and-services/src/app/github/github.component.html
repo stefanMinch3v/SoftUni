@@ -1,0 +1,18 @@
+<div>
+    <span>Get the whole profile in console.log</span>
+    <button (click)=getProfile()>Click</button>
+</div>
+<div>
+    <span>Get followers</span>
+    <button (click)=getFollowers()>Click</button>
+</div>
+<div>
+    <span>Get repos</span>
+    <button (click)=getRepos()>Click</button>
+</div>
+<h1>Hi from github profile: {{profile && profile.login}}</h1>
+<h1>Followers: {{followers}}</h1>
+<h1>Repositories: {{repos}}</h1>
+<div>
+    <img src="{{profile && profile.avatar_url}}" alt="">
+</div>

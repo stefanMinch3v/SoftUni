@@ -1,0 +1,71 @@
+<div class="container">
+        <h1>Car Form</h1>
+        <div class="col-md-5 text-center">
+          <form (ngSubmit)="editCar()" #carForm="ngForm">
+            <div class="form-group">
+              <label for="make">Make</label>
+              <input 
+                type="text" 
+                class="form-control" 
+                id="make"
+                name="make"
+                [(ngModel)]="car.make"
+                required
+                #make="ngModel"
+                value="{{car.make}}"
+              />
+              <div [hidden]="make.valid || make.pristine" class="alert alert-danger">
+                Invalid make!
+              </div>
+            </div>
+    
+            <div class="form-group">
+              <label for="model">Model</label>
+              <input 
+                type="text" 
+                class="form-control" 
+                id="model" 
+                name="model"
+                [(ngModel)]="car.model"
+                minlength="2"
+                required
+                value="car.model"
+              />
+            </div>
+    
+            <div class="form-group">
+              <label for="imageUrl">Image URL</label>
+              <input 
+                type="text" 
+                class="form-control" 
+                id="imageUrl"
+                name="imageUrl" 
+                [(ngModel)]="car.imageUrl"
+                required
+                value="car.imageUrl"
+              />
+              <p *ngIf="car.imageUrl && car">
+                <img src="{{car.imageUrl}}" class="img-fixed"/>
+              </p>
+            </div>
+    
+            <div class="form-group">
+              <label for="engine">Engine</label>
+              <select 
+                class="form-control" 
+                id="engine"
+                name="engine"
+                [(ngModel)]="car.engine" 
+                required>
+                <option *ngFor="let engine of engines" [value]="engine">
+                  {{engine | horsePowers}}
+                </option>
+              </select>
+              <p>Previous engine {{car.engine}}</p>
+            </div>      
+      
+            <button type="submit" class="btn btn-success" [disabled]="!carForm.form.valid">Edit</button>
+          </form>
+        </div>
+    </div>
+    

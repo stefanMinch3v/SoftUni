@@ -1,0 +1,27 @@
+<h1>Cars</h1>
+
+<div class="col-md-12">
+    <table *ngIf="cars.length > 0" class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Image</th>
+                <th>Engine</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let car of cars">
+            <tr>
+                <td>{{car.make}}</td>
+                <td>{{car.model}}</td>
+                <td>
+                    <img roundedBorder src="{{car.imageUrl}}" alt="" class="img-fixed">
+                    <p><a href="cars/edit/{{car.id}}">Edit</a></p>
+                </td>
+                <td>{{car.engine | horsePowers}}</td>
+                <td>{{car.dateOfCreation}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,16 @@
+.img-fixed {
+    height: 200px;
+    width: 200px;
+}
+a {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+input.ng-invalid.ng-dirty {
+    background-color: pink;
+}
+
+input.ng-valid.ng-dirty {
+    background-color: lightgreen;
+}

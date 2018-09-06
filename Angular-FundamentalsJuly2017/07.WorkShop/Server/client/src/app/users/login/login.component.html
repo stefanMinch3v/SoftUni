@@ -1,0 +1,39 @@
+<h3>Login</h3>
+<form #loginForm="ngForm" class="col-md-3" (submit)="login()">
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input 
+                type="text"
+                class="form-control" 
+                id="email" 
+                name="email"
+                #email="ngModel"
+                [(ngModel)] = "user.email"
+                required />
+            <span class="text-danger" [hidden]="email.valid || email.pristine">
+                Email is required!
+            </span>
+        </div>
+    
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input 
+                type="password" 
+                class="form-control" 
+                id="password" 
+                name="password"
+                #password="ngModel"
+                [(ngModel)] = "user.password"
+                required />
+            <span class="text-danger" [hidden]="password.valid || password.pristine">
+                Password is required!
+            </span>
+        </div>
+    
+        <button 
+            type="submit" 
+            class="btn btn-success"
+            [disabled]="!loginForm.form.valid">Login
+        </button>
+        <!-- onclick="window.location = '/'" -->
+    </form>

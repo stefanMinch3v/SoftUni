@@ -1,0 +1,10 @@
+<ul>
+    <!---- [ ] means send the data into the child or the component that is waiting for an input --->
+    <!---- ( ) means receive the data from the child or the component that is sending the output --->
+    <app-article 
+    (testSend)="dataReceived($event)"
+    *ngFor="let article of articles"
+        [article]="article"
+        [articleDesc]="article.description">
+    </app-article> 
+</ul>

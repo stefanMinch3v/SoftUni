@@ -1,0 +1,20 @@
+<div>
+    <span *ngIf="loggedIn">
+        <a routerLink="/users/profile">User: {{username}}</a> |
+    </span>
+
+    <span>
+        <a routerLink="/">Home</a> |
+        <a routerLink="/cars/all">All cars</a> |
+    </span>
+
+    <span *ngIf="!loggedIn">
+        <a routerLink="/users/login">Login</a> |
+        <a routerLink="/users/register">Register</a>
+    </span>
+
+    <span *ngIf="loggedIn">
+        <a routerLink="/users/logout">Logout</a> |
+        <a routerLink="/cars/add">Add car</a>
+    </span>
+</div>

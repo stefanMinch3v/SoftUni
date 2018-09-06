@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+.img-fixed {
+    height: 200px;
+    width: 200px;
+}
+a {
+    display: inline-block;
+    margin-right: 8px;
+}

@@ -1,0 +1,75 @@
+<div class="container">
+    <h1>Car Form</h1>
+    <p>Example of 2 way binding</p>
+    <div class="col-md-5 text-center">
+      <form 
+        (ngSubmit)="submitCar()" 
+        #carForm="ngForm">
+        <div class="form-group">
+          <label for="make">Make</label>
+          <input 
+            type="text" 
+            class="form-control" 
+            id="make"
+            name="make"
+            [(ngModel)]="car.make"
+            required
+            #make="ngModel" 
+            #spy 
+          />
+          <p>{{spy.className}}</p>
+          <p>{{car.make}}</p>
+          <div [hidden]="make.valid || make.pristine" class="alert alert-danger">
+            Invalid make!
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="model">Model</label>
+          <input 
+            type="text" 
+            class="form-control" 
+            id="model" 
+            name="model"
+            [(ngModel)]="car.model"
+            minlength="2"
+            required 
+          />
+          <p>{{car.model}}</p>
+        </div>
+
+        <div class="form-group">
+          <label for="imageUrl">Image URL</label>
+          <input 
+            type="text" 
+            class="form-control" 
+            id="imageUrl"
+            name="imageUrl" 
+            [(ngModel)]="car.imageUrl"
+            required 
+          />
+          <p *ngIf="car.imageUrl && car">
+            <img src="{{car.imageUrl}}" class="img-fixed"/>
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label for="engine">Engine</label>
+          <select 
+            class="form-control" 
+            id="engine"
+            name="engine"
+            [(ngModel)]="car.engine" 
+            required>
+            <option *ngFor="let engine of engines" [value]="engine">
+              {{engine | horsePowers}}
+            </option>
+          </select>
+          <p>{{car.engine}}</p>
+        </div>      
+  
+        <button type="submit" class="btn btn-success" [disabled]="!carForm.form.valid">Submit</button> |
+        <button type="submit" class="btn btn-success" (click)="clearCar()">New car</button>
+      </form>
+    </div>
+</div>

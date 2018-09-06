@@ -1,0 +1,31 @@
+<h1>Cars</h1>
+<button *ngIf="showCarsBtn" (click)="getAll()">Load cars in the table</button>
+<div class="col-md-12">
+    <table *ngIf="cars.length > 0" class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Image</th>
+                <th>Date</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let car of cars">
+            <tr>
+                <td>{{car.make}}</td>
+                <td>{{car.model}}</td>
+                <td>
+                    <img src="{{car.imageUrl}}" alt="" class="img-fixed">
+                    <a href="cars/{{car.id}}">Details</a>
+                </td>
+                <td>{{car.dateOfCreation}}</td>
+                <td *ngFor="let comment of car.comments" class="d-md-table-row">
+                    <ul>
+                        <li>{{comment}}</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

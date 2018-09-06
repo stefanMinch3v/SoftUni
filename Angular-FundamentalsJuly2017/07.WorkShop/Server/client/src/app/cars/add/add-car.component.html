@@ -1,0 +1,112 @@
+<h1>Add car</h1>
+<form #addCarForm="ngForm" class="col-md-3" (submit)="addCar()">
+    <div class="form-group">
+        <label for="make">Make:</label>
+        <input 
+            type="text" 
+            class="form-control" 
+            id="make" 
+            name="make"
+            #make="ngModel"
+            [(ngModel)] = "car.make"
+            required/>
+        <span class="text-danger" [hidden]="make.valid || make.pristine">
+            Make is required!
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="model">Model:</label>
+        <input 
+            type="text"
+            class="form-control" 
+            id="model" 
+            name="model"
+            #model="ngModel"
+            [(ngModel)] = "car.model"
+            required />
+        <span class="text-danger" [hidden]="model.valid || model.pristine">
+            Model is required!
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="year">Year:</label>
+        <input 
+            type="number"
+            min="1980"
+            max="2018"
+            class="form-control" 
+            id="year" 
+            name="year"
+            #year="ngModel"
+            [(ngModel)] = "car.year"
+            required />
+        <span class="text-danger" [hidden]="year.valid || year.pristine">
+            Year is required!
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="engine">Engine:</label>
+        <input 
+            type="text"
+            class="form-control" 
+            id="engine" 
+            name="engine"
+            #engine="ngModel"
+            [(ngModel)] = "car.engine"
+            required />
+        <span class="text-danger" [hidden]="engine.valid || engine.pristine">
+            Engine is required!
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="price">Price:</label>
+        <input 
+            type="number"
+            min="0"
+            max="10000000"
+            class="form-control" 
+            id="price" 
+            name="price"
+            #price="ngModel"
+            [(ngModel)] = "car.price"
+            required />
+        <span class="text-danger" [hidden]="price.valid || price.pristine">
+            Price is required!
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="image">Image URL:</label>
+        <input 
+            type="text"
+            class="form-control" 
+            id="image" 
+            name="image"
+            [(ngModel)] = "car.image"
+            required />
+        <p *ngIf="car.image && car">
+            <img src="{{car.image}}" class="img-fixed"/>
+        </p>
+    </div>
+
+    <div class="form-group">
+        <label for="mileage">Mileage:</label>
+        <input 
+            type="number"
+            min="0"
+            max="10000000"
+            class="form-control" 
+            id="mileage" 
+            name="mileage"
+            [(ngModel)] = "car.mileage"/>
+    </div>
+
+    <button 
+        type="submit" 
+        class="btn btn-success"
+        [disabled]="!addCarForm.form.valid">Submit</button>
+</form>

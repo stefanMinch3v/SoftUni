@@ -1,0 +1,32 @@
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+
+import { CarsModule } from './car/car.module';
+import { OwnersModule } from './owner/owner.module';
+
+import { HomeComponent } from './home/home.component';
+
+const routes: Routes = [
+    {
+        path: '',
+        component: HomeComponent
+    },
+    { 
+        path: 'cars', 
+        loadChildren: () => CarsModule // lazy loading /cars/...
+    },
+    {
+        path: 'owners',
+        loadChildren: () => OwnersModule // lazy loading /owners/..
+    },
+    { 
+        path: '**',
+        redirectTo: '' 
+    }
+];
+
+@NgModule({
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule]
+})
+export class AppRoutesModule { }
